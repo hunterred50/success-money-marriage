@@ -1,5 +1,7 @@
 import './App.css';
-import {Link, Element} from 'react-scroll'
+import {Link, Element} from 'react-scroll';
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
 
 var heroImg = {
   backgroundImage: `url("https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/HdiTsSFTmeVgfIrFWM8A_Screen_Shot_2021-03-03_at_12.02.43_PM.png")`,
@@ -61,6 +63,7 @@ function App() {
       <Element name="episodes" style={{backgroundColor: "rgba(35, 38, 50)", marginTop: "-6em", display: "flex", justifyContent: "center", height: "33em"}}>
         <div style={{backgroundColor: "#ffffff", paddingTop: "10px", width: "50em", height: "30em", color: "black", zIndex: "2"}}>
           <h1 style={{fontFamily: "Oswald, sans-serif", fontWeight: "400"}}>Listen to the show:</h1>
+          <AudioPlayer autoPlay src="http://example.com/audio.mp3" onPlay={e => console.log("onPlay")}/>
         </div>
       </Element>
       </div>
