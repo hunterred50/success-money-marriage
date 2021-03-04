@@ -78,7 +78,7 @@ function App() {
               </p>
             </div>
             <div style={{width: "50%", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center"}}>
-              <img alt="steve" style={{width: "50%", borderRadius: "15px", borderWidth: "5px", borderColor: "white", borderStyle: "solid"}} src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/z2GWGgPaR2u8gnLkWRvS_Steve_Siebold_HS.jpeg"/>
+              <img alt="steve" style={{width: "53%", borderRadius: "15px", borderWidth: "5px", borderColor: "white", borderStyle: "solid"}} src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/z2GWGgPaR2u8gnLkWRvS_Steve_Siebold_HS.jpeg"/>
               <h2 style={{fontFamily: "Oswald, sans-serif", fontWeight: "500", marginTop: "10px"}}>Steve Siebold</h2>
               <p style={{width: "80%"}}>
                 Since 1997, Steve Siebold, CSP, CFEd has helped Fortune 100 companies increase sales by $1.3 billion USD through his flagship training program, Mental Toughness University.<br/><br/>
