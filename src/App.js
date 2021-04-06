@@ -52,6 +52,8 @@ function App() {
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="home">Home</Link>
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="episodes">Episodes</Link>
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="about">About</Link>
+              <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="media">Media</Link>
+              <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="media">Photos</Link>
               <button style={{margin: "0 10px", textDecoration: "none", color: "black", cursor: "pointer", padding: "0px 15px", borderRadius: "20px", border: "0", fontFamily: "Oswald, sans-serif", fontWeight: "400"}}>Subscribe</button>
             </div>
             {/* <div style={{display: "flex", alignContent: "flex-end", justifyContent: "center", alignSelf: "flex-end"}}>
@@ -68,32 +70,98 @@ function App() {
       </Element>
       </div>
       <Element name="about" style={{backgroundColor: "rgba(35, 38, 50)", color: "white", paddingBottom: "10em"}}>
-          <h1 style={{margin: "0px", fontFamily: "Oswald, sans-serif", fontWeight: "400", paddingBottom: "1em"}}>About the Hosts</h1>
-          <div style={{display: "flex", justifyContent: "center", alignItems: "flex-start"}}>
-            <div style={{width: "50%", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center"}}>
-              <img alt="dawn" style={{width: "53.5%", borderRadius: "15px", borderWidth: "5px", borderColor: "white", borderStyle: "solid"}} src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/hNazMd00SGuTTNUcuFdy_DawnSQblackwhite.jpg"/>
-              <h2 style={{fontFamily: "Oswald, sans-serif", fontWeight: "500", marginTop: "10px"}}>Dawn Andrews</h2>
-              <p style={{width: "80%"}}>
-              Dawn is a former award-winning real estate professional specializing in high end properties based in Palm Beach, Florida. In 1999, she was tapped to become President of Siebold Success Network, a start-up founded by her husband Steve and his business partner.<br/><br/>Under Dawn’s leadership over the past 20 years, the company has grown into a multimillion-dollar enterprise that operates in 10 countries around the world. In 2009, she was invited into the National Speakers Association’s Million Dollar Speakers Group and currently serves as the President of the Georgia Speakers Bureau.  In September 2018, Dawn and Steve joined WealthWave® and, within a month, qualified to become Senior Marketing Directors.
+          <h1 style={{margin: "0px", fontFamily: "Oswald, sans-serif", fontWeight: "400", paddingBottom: ".2em"}}>Sex, Money and Marriage</h1>
+            <p style={{paddingBottom: "5em", width: "60%", marginLeft: "20%"}}>
+              This weekly podcast explores key issues involving sex, money and marriage in
+              modern day America. The shows objective is to explore multiple points of view on
+              subjects that matter. After almost four decades of living together, being married,
+              traveling the world, building businesses and negotiating substantial sex drives,
+              there are few obstacles this couple hasn’t encountered. After a lifetime of mistakes,
+              missteps and successes, the Siebold’s offer a unique perspective.
+            </p>
+          <h1 style={{margin: "0px", fontFamily: "Oswald, sans-serif", fontWeight: "400", paddingBottom: ".2em"}}>About Us</h1>
+          <div style={{display: "flex", justifyContent: "center", alignItems: "flex-start", flexDirection: "column"}}>
+            <div style={{width: "100%", display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center"}}>
+              <div>
+                <img alt="dawn" style={{width: "53.5%", borderRadius: "15px", borderWidth: "5px", borderColor: "white", borderStyle: "solid"}} src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/hNazMd00SGuTTNUcuFdy_DawnSQblackwhite.jpg"/>
+                <h2 style={{fontFamily: "Oswald, sans-serif", fontWeight: "500", marginTop: "10px"}}>Dawn Andrews</h2>
+                  {/* Dawn is a former award-winning real estate professional specializing in high end properties based in Palm Beach, Florida. In 1999, she was tapped to become President of Siebold Success Network, a start-up founded by her husband Steve and his business partner.<br/><br/>Under Dawn’s leadership over the past 20 years, the company has grown into a multimillion-dollar enterprise that operates in 10 countries around the world. In 2009, she was invited into the National Speakers Association’s Million Dollar Speakers Group and currently serves as the President of the Georgia Speakers Bureau.  In September 2018, Dawn and Steve joined WealthWave® and, within a month, qualified to become Senior Marketing Directors. */}
+              </div>
+              <div>
+                <img alt="steve" style={{width: "53%", borderRadius: "15px", borderWidth: "5px", borderColor: "white", borderStyle: "solid"}} src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/z2GWGgPaR2u8gnLkWRvS_Steve_Siebold_HS.jpeg"/>
+                <h2 style={{fontFamily: "Oswald, sans-serif", fontWeight: "500", marginTop: "10px"}}>Steve Siebold</h2>
+              </div>
+            </div>
+            <div style={{display: "flex", justifyContent: "center"}}>
+              <p style={{width: "80%", textAlign: "left"}}>
+                Steve and Dawn Siebold were married in Freeport, Bahamas on April 6, 1986.
+                As a married couple, they’ve struggled, succeeded, failed, fought, made up and
+                reinvented their relationship over and over again.<br/><br/>
+
+                Together, they’ve built four multimillion companies from the ground up with offices
+                in 40 states and 10 countries around the world. More information regarding the
+                couple’s business ventures can be found at <a style={{color: "gray"}} href="https://sieboldnetwork.com/">www.SieboldNetwork.com</a><br/><br/>
+
+                In 2012, Steve wrote a book called <i><u>Sex, Politics and Religion: How Delusional
+                Thinking is Destroying America</u></i>, which was panned by critics for its unapologetic
+                approach to sensitive subjects such as open marriage, pornography, prostitution,
+                war on drugs, assisted suicide, childless by choice, legalized gambling, gun control,
+                school prayer, catholic church sex scandal, unions, tantra, and others.
+                The premise of Siebold’s philosophy is that no matter what your ideology, our
+                society should possess the emotional maturity to engage in robust dialogue to
+                elevate our collective consciousness and arrive at a greater level of mutual
+                understanding. During a time of unprecedented political polarization, respectful
+                discussion/dissention minus ad hominem attacks and demonization is the essence
+                of this podcast.<br/><br/>
+
+                Steve and Dawn are Certified Financial Educators and lead a team of financial
+                educators and experts with offices in 40 states throughout the U.S. and 4 provinces
+                in Canada. Their organization helps thousands of clients protect, invest and grow
+                their wealth. Steve and Dawn deliver speeches and seminars on the foundational
+                elements of personal finance. In 2020, Steve co-authored the #1 selling personal
+                finance book of 2020, <u><i>How Money Works: Stop Being a Sucker</i></u>, with financial titan
+                Tom Mathews. The book has sold over 500,000 copies.<br/><br/>
+
+                Steve has been interviewed on over 300 TV shows as a guest expert, including <i>The
+                Today Show, Good Morning America, CNN Headline News, Fox Business Network,
+                MSNBC, and The Wall Street Journal Special Report</i>. His opinion-editorials on paying
+                college athletes, labor unions, war on drugs, gun control, and others have been
+                featured in USA Today, Yahoo Finance, U.S. News and World Report, Chicago Sun-
+                Times, San Francisco Chronicle, New York Times, Boston Globe and dozens of
+                others. He’s written 12 books that have been published in 7 languages and sold 1.6
+                million copies. As a professional speaker, ranks among the top one percent of
+                income earners worldwide.<br/><br/>
+
+                The Siebold’s reside at Bona Allen Mansion, a 6-acre, 110 year old estate located in
+                Buford, Georgia, approximately 50 miles northeast of Atlanta. “The Mansion”, as it’s
+                known locally, was the private home of Bonaparte “Bona” Allen, the late 19 th and
+                early 20 th century industrialist, who founded and built the <i>Bona Allen Company</i>,
+                which for decades was the largest manufacturer of leather goods in the world.<br/><br/>
+
+                Steve and Dawn live with their two rescue dogs, Luna-Tuna and Big Lou.<br/>
               </p>
             </div>
-            <div style={{width: "50%", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center"}}>
-              <img alt="steve" style={{width: "53%", borderRadius: "15px", borderWidth: "5px", borderColor: "white", borderStyle: "solid"}} src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/z2GWGgPaR2u8gnLkWRvS_Steve_Siebold_HS.jpeg"/>
-              <h2 style={{fontFamily: "Oswald, sans-serif", fontWeight: "500", marginTop: "10px"}}>Steve Siebold</h2>
-              <p style={{width: "80%"}}>
-                Since 1997, Steve Siebold, CSP, CFEd has helped Fortune 100 companies increase sales by $1.3 billion USD through his flagship training program, Mental Toughness University.<br/><br/>
+          </div>
+        </Element>
+        <Element name="media" style={{backgroundColor: "white", color: "rgba(35, 38, 50)", paddingBottom: "10em", display: "flex", justifyContent: "center", height: "20em", width: "60%", marginLeft: "19%", flexDirection: "column"}}>
+          <h1 style={{margin: "0px", fontFamily: "Oswald, sans-serif", fontWeight: "400", paddingBottom: "1em"}}>Media</h1>
+          <div style={{textAlign: "left"}}>
+            Steve Siebold is a regular guest on TV News shows across the country, including The
+            Today Show, Good Morning America, CNN Headline News, Fox Business Network,
+            MSNBC, and The Wall Street Journal Special Report.<br/><br/>
 
-                Siebold has delivered $16 million in keynote speeches at National and International Conventions for companies such as Johnson & Johnson, Ingersoll-Rand, Caterpillar, Merck, GlaxoSmithKline, Toyota, Chrysler-Fiat, Transamerica and hundreds of others. Siebold’s 12 books have sold over 1.6 million copies, including the #1 selling book of 2020 on Personal Finance, How Money Works, with co-author Tom Mathews. Siebold’s books have been translated into 7 languages.<br/><br/>
-
-                He’s a former professional tennis player and national coach. His sports clients include Andre Agassi, the Boston Celtics, Miami Marlins and Ohio State Buckeyes.<br/><br/>
-
-                As the CEO of Siebold Success Network, Steve oversees a team of 118 inside and outside salespeople, which gives him unique insights on how to build a mentally tough sales team.<br/><br/>
-
-                Steve’s work has been featured on every major television network in the United States and Canada, and his interviews and articles have appeared in the Wall Street Journal, Fortune, Forbes, USA Today and hundreds of other publications around the world.<br/><br/>
-
-                As a professional speaker, Steve ranks among the top 1% of income earners worldwide. He is the former chairman of the National Speakers Association’s Million-Dollar Speaker Group.<br/><br/>
-              </p>
-            </div>
+            {/* (Post Today Show, Good Morning America, Hardball with Chris Mathews, Fox
+            Business Network w/Stuart Varney, and the rest big city interviews on How Money
+            Works, (use all the in-studio interviews that you can) */}
+          </div>
+        </Element>
+        <Element name="footer" style={{backgroundColor: "rgba(35, 38, 50)", color: "white", padding: "3em", textAlign: "left"}}>
+          <div style={{marginLeft: "15%"}}>
+            Sex, Money and Marriage Podcast<br/>
+            Bona Allen Mansion<br/>
+            395 East Main St.<br/>
+            Buford, Georgia 30518<br/>
+            (Email) <a style={{color: "gray"}} href="mailto: contact@sexmoneymarriage.com">contact@sexmoneymarriage.com</a>
           </div>
         </Element>
     </div>
