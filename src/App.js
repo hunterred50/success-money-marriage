@@ -2,6 +2,7 @@ import './App.css';
 import {Link, Element} from 'react-scroll';
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
+import Media from './components/Media';
 
 var heroImg = {
   backgroundImage: `url("https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/HdiTsSFTmeVgfIrFWM8A_Screen_Shot_2021-03-03_at_12.02.43_PM.png")`,
@@ -44,21 +45,24 @@ var items = {
 function App() {
   return (
     <div className="App" style={{scrollBehavior: "smooth"}}>
+      <Link activeClass="active" spy={true} smooth={true} duration={500} style={{color: "white", cursor: "pointer", padding: "10px", borderRadius: "10px", backgroundColor: "rgba(0,0,0,0.5)", bottom: "20px", right: "20px", position: "fixed"}} to="home">
+        ↑ Back to Top
+      </Link>
       <div style={heroImg}>
         <div style={opaque}>
-          <div style={heroDiv}>
+          <Element name="home" style={heroDiv}>
             <h1 style={{fontSize: "3.2em", margin: "-30px 0 10px 0"}}>Sex, Money and Marriage</h1>
             <div style={{width: "100%", height: "100%", display: "flex", justifyContent: "center"}}>
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="home">Home</Link>
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="episodes">Episodes</Link>
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="about">About</Link>
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="media">Media</Link>
-              <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="media">Photos</Link>
+              <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="photos">Photos</Link>
               <button style={{margin: "0 10px", textDecoration: "none", color: "black", cursor: "pointer", padding: "0px 15px", borderRadius: "20px", border: "0", fontFamily: "Oswald, sans-serif", fontWeight: "400"}}>Subscribe</button>
             </div>
             {/* <div style={{display: "flex", alignContent: "flex-end", justifyContent: "center", alignSelf: "flex-end"}}>
             <div style={{width: "50em", height: "1em", backgroundColor: "#ffffff"}}>h</div></div> */}
-          </div>
+          </Element>
         </div>
       </div>
       <div style={{scrollBehavior: "smooth"}}>
@@ -143,9 +147,9 @@ function App() {
             </div>
           </div>
         </Element>
-        <Element name="media" style={{backgroundColor: "white", color: "rgba(35, 38, 50)", paddingBottom: "10em", display: "flex", justifyContent: "center", height: "20em", width: "60%", marginLeft: "19%", flexDirection: "column"}}>
-          <h1 style={{margin: "0px", fontFamily: "Oswald, sans-serif", fontWeight: "400", paddingBottom: "1em"}}>Media</h1>
-          <div style={{textAlign: "left"}}>
+        <Element name="media" style={{backgroundColor: "white", color: "rgba(35, 38, 50)", paddingBottom: "10em", display: "flex", justifyContent: "center", height: "100%", width: "75%", marginLeft: "12%", marginTop: "5em", marginBottom: "0em", flexDirection: "column", alignContent: "flex-start"}}>
+          <h1 style={{margin: "0px", fontFamily: "Oswald, sans-serif", fontWeight: "400", paddingBottom: ".6em"}}>Media</h1>
+          <div style={{textAlign: "center"}}>
             Steve Siebold is a regular guest on TV News shows across the country, including The
             Today Show, Good Morning America, CNN Headline News, Fox Business Network,
             MSNBC, and The Wall Street Journal Special Report.<br/><br/>
@@ -153,6 +157,26 @@ function App() {
             {/* (Post Today Show, Good Morning America, Hardball with Chris Mathews, Fox
             Business Network w/Stuart Varney, and the rest big city interviews on How Money
             Works, (use all the in-studio interviews that you can) */}
+          </div>
+          <Media />
+        </Element>
+        <Element name="photos" style={{backgroundColor: "white", color: "rgba(35, 38, 50)", paddingBottom: "10em", display: "flex", justifyContent: "center", height: "100%", width: "75%", marginLeft: "12%", marginTop: "5em", marginBottom: "0em", flexDirection: "column", alignContent: "flex-start"}}>
+        <h1 style={{margin: "0px", fontFamily: "Oswald, sans-serif", fontWeight: "400", paddingBottom: ".6em"}}>Photos</h1>
+          <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
+            <img style={{width: "30%", padding: "0 5em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/8UG0oH5bSSAqGXA5ljrQ_magazine.jpg"/>
+            <h3 style={{padding: "0 5em"}}>Steve and Dawn on the cover of LAKE Destination Lanier, Home Living in North Georgia</h3>
+          </div>
+          <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
+            <h3 style={{padding: "0 2em"}}>Steve and Dawn with How Money Works co-author, Tom Matthews, on Leadership Live interviewing Bob Proctor</h3>
+            <img style={{width: "40%", padding: "4em 5em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/cH3ZNlmRqmzGsVLa9If5_wealthwave.jpg"/>
+          </div>
+          <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
+            <img style={{width: "40%", padding: "4em 5em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/9oAbt199QECuqkAEhgV0_marriage.jpg"/>
+            <h3 style={{padding: "0 2em"}}>A wedding portrait of Steve and Dawn</h3>
+          </div>
+          <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
+            <h3 style={{padding: "0 2em"}}>A picture of Dawn outside of Bona Allen Mansion, the new homebase of Siebold Success Network</h3>
+            <img style={{width: "40%", padding: "4em 5em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/CecHWLjTViZjXMgaHqOw_mansion.jpg"/>
           </div>
         </Element>
         <Element name="footer" style={{backgroundColor: "rgba(35, 38, 50)", color: "white", padding: "3em", textAlign: "left"}}>
