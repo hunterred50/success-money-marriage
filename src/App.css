@@ -11,6 +11,19 @@
   img.siebold {
     margin-top: -20px;
   }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 760px) {
+  h1.title {
+    font-size: 7vw;
+  }
+  img.siebold {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1401px) {
   div.heroImg {
     background-image: url("https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/HdiTsSFTmeVgfIrFWM8A_Screen_Shot_2021-03-03_at_12.02.43_PM.png");
     height: 900px;
@@ -25,14 +38,7 @@
   }
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 760px) {
-  h1.title {
-    font-size: 7vw;
-  }
-  img.siebold {
-    margin-top: 20px;
-  }
+@media screen and (max-width: 1400px) {
   div.heroImg {
     background-image: url("https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/HdiTsSFTmeVgfIrFWM8A_Screen_Shot_2021-03-03_at_12.02.43_PM.png");
     height: 900px;
@@ -46,4 +52,3 @@
     z-index: 1;
   }
 }
-
