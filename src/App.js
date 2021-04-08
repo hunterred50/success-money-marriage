@@ -62,7 +62,7 @@ function App() {
       </Element>
       </div>
       <Element name="about" style={{backgroundColor: "rgba(35, 38, 50)", color: "white", paddingBottom: "10em"}}>
-          <h1 style={{margin: "0px", fontFamily: "Oswald, sans-serif", fontWeight: "400", paddingBottom: ".2em"}}>Sex, Money and Marriage</h1>
+          <h1 class="section">Sex, Money and Marriage</h1>
             <p style={{paddingBottom: "5em", width: "60%", marginLeft: "20%"}}>
               This weekly podcast explores key issues involving sex, money and marriage in
               modern day America. The shows objective is to explore multiple points of view on
@@ -71,7 +71,7 @@ function App() {
               there are few obstacles this couple hasn’t encountered. After a lifetime of mistakes,
               missteps and successes, the Siebold’s offer a unique perspective.
             </p>
-          <h1 style={{margin: "0px", fontFamily: "Oswald, sans-serif", fontWeight: "400", paddingBottom: ".2em"}}>About Us</h1>
+          <h1 class="section">About Us</h1>
           <div style={{display: "flex", justifyContent: "center", alignItems: "flex-start", flexDirection: "column"}}>
             <div style={{width: "100%", display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center"}}>
               <div>
@@ -136,8 +136,8 @@ function App() {
           </div>
         </Element>
         <Element name="media" style={{backgroundColor: "white", color: "rgba(35, 38, 50)", paddingBottom: "10em", display: "flex", justifyContent: "center", height: "100%", width: "75%", marginLeft: "12%", marginTop: "5em", marginBottom: "0em", flexDirection: "column", alignContent: "flex-start"}}>
-          <h1 style={{margin: "0px", fontFamily: "Oswald, sans-serif", fontWeight: "400", paddingBottom: ".6em"}}>Media</h1>
-          <div style={{textAlign: "center"}}>
+          <h1 class="section">Media</h1>
+          <div style={{textAlign: "center", paddingTop: ".4em"}}>
             Steve Siebold is a regular guest on TV News shows across the country, including The
             Today Show, Good Morning America, CNN Headline News, Fox Business Network,
             MSNBC, and The Wall Street Journal Special Report.<br/><br/>
@@ -149,7 +149,7 @@ function App() {
           <Media />
         </Element>
         <Element name="photos" style={{backgroundColor: "white", color: "rgba(35, 38, 50)", paddingBottom: "10em", display: "flex", justifyContent: "center", height: "100%", width: "75%", marginLeft: "12%", marginTop: "3em", marginBottom: "0em", flexDirection: "column", alignContent: "flex-start"}}>
-        <h1 style={{margin: "0px", fontFamily: "Oswald, sans-serif", fontWeight: "400", paddingBottom: "0em"}}>Photos</h1>
+        <h1 class="section" style={{paddingBottom: "0em"}}>Photos</h1>
           <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
             <img style={{width: "50%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/8UG0oH5bSSAqGXA5ljrQ_magazine.jpg"/>
             <h3 style={{padding: "0 1em", fontSize: "2.5vw", fontWeight: "400"}}>Steve and Dawn on the cover of LAKE Destination Lanier, Home Living in North Georgia</h3>

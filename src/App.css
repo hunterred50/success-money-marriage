@@ -11,6 +11,13 @@
   img.siebold {
     margin-top: -20px;
   }
+  h1.section {
+    font-size: 4vw;
+    margin: 0px;
+    font-family: Oswald, sans-serif;
+    font-weight: 400;
+    padding-bottom: .2em;
+  }
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
@@ -20,6 +27,13 @@
   }
   img.siebold {
     margin-top: 20px;
+  }
+  h1.section {
+    font-size: 7vw;
+    margin: 0px;
+    font-family: Oswald, sans-serif;
+    font-weight: 400;
+    padding-bottom: .2em;
   }
 }
 
