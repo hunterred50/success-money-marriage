@@ -175,7 +175,9 @@ function App() {
             Buford, Georgia 30518<br/>
             (Email) <a style={{color: "gray"}} href="mailto: contact@sexmoneymarriage.com">contact@sexmoneymarriage.com</a>
           </div>
-          <img class="siebold" alt="siebold logo" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/YnXXsy8RuabxB9QWXTCj_govesieboldlogo.png"/>
+          <a target="_blank" href="https://sieboldnetwork.com/">
+            <img class="siebold" alt="siebold logo" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/YnXXsy8RuabxB9QWXTCj_govesieboldlogo.png"/>
+          </a>
         </Element>
     </div>
   );
