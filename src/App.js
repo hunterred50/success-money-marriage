@@ -4,19 +4,6 @@ import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 import Media from './components/Media';
 
-var heroImg = {
-  backgroundImage: `url("https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/HdiTsSFTmeVgfIrFWM8A_Screen_Shot_2021-03-03_at_12.02.43_PM.png")`,
-  height: "900px",
-  backgroundRepeat: "no-repeat",
-  backgroundPosition: "center top",
-  backgroundSize: "auto",
-  minHeight: "100%",
-  position: "relative",
-  backgroundAttachment: "fixed",
-  display: "flex",
-  zIndex: "1"
-}
-
 var heroDiv = {
   textAlign: "center",
   position: "relative",
@@ -49,7 +36,7 @@ function App() {
       <Link activeClass="active" spy={true} smooth={true} duration={500} style={{color: "white", cursor: "pointer", padding: "10px", borderRadius: "10px", backgroundColor: "rgba(0,0,0,0.5)", bottom: "20px", right: "20px", position: "fixed"}} to="home">
         ↑ Back to Top
       </Link>
-      <div style={heroImg}>
+      <div class="heroImg">
         <div style={opaque}>
           <Element name="home" style={heroDiv}>
             <h1 class="title" style={{margin: "-40px 0 10px 0"}}>Sex, Money and Marriage</h1>
