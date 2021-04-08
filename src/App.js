@@ -51,7 +51,7 @@ function App() {
       <div style={heroImg}>
         <div style={opaque}>
           <Element name="home" style={heroDiv}>
-            <h1 style={{fontSize: "5vw", margin: "-40px 0 10px 0"}}>Sex, Money and Marriage</h1>
+            <h1 style={{margin: "-40px 0 10px 0"}}>Sex, Money and Marriage</h1>
             <div style={{width: "100%", height: "100%", display: "flex", justifyContent: "center"}}>
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="home">Home</Link>
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="episodes">Episodes</Link>
