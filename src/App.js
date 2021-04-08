@@ -9,7 +9,7 @@ var heroImg = {
   height: "900px",
   backgroundRepeat: "no-repeat",
   backgroundPosition: "center top",
-  backgroundSize: "cover",
+  backgroundSize: "auto",
   minHeight: "100%",
   position: "relative",
   backgroundAttachment: "fixed",
