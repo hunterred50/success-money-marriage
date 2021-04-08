@@ -10,6 +10,7 @@ var heroImg = {
   backgroundRepeat: "no-repeat",
   backgroundPosition: "center top",
   backgroundSize: "cover",
+  minHeight: "100%",
   position: "relative",
   backgroundAttachment: "fixed",
   display: "flex",
@@ -51,7 +52,7 @@ function App() {
       <div style={heroImg}>
         <div style={opaque}>
           <Element name="home" style={heroDiv}>
-            <h1 style={{margin: "-40px 0 10px 0"}}>Sex, Money and Marriage</h1>
+            <h1 class="title" style={{margin: "-40px 0 10px 0"}}>Sex, Money and Marriage</h1>
             <div style={{width: "100%", height: "100%", display: "flex", justifyContent: "center"}}>
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="home">Home</Link>
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="episodes">Episodes</Link>
@@ -160,33 +161,34 @@ function App() {
           </div>
           <Media />
         </Element>
-        <Element name="photos" style={{backgroundColor: "white", color: "rgba(35, 38, 50)", paddingBottom: "10em", display: "flex", justifyContent: "center", height: "100%", width: "75%", marginLeft: "12%", marginTop: "5em", marginBottom: "0em", flexDirection: "column", alignContent: "flex-start"}}>
-        <h1 style={{margin: "0px", fontFamily: "Oswald, sans-serif", fontWeight: "400", paddingBottom: ".6em"}}>Photos</h1>
+        <Element name="photos" style={{backgroundColor: "white", color: "rgba(35, 38, 50)", paddingBottom: "10em", display: "flex", justifyContent: "center", height: "100%", width: "75%", marginLeft: "12%", marginTop: "3em", marginBottom: "0em", flexDirection: "column", alignContent: "flex-start"}}>
+        <h1 style={{margin: "0px", fontFamily: "Oswald, sans-serif", fontWeight: "400", paddingBottom: "0em"}}>Photos</h1>
           <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
-            <img style={{width: "30%", padding: "0 5em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/8UG0oH5bSSAqGXA5ljrQ_magazine.jpg"/>
-            <h3 style={{padding: "0 5em"}}>Steve and Dawn on the cover of LAKE Destination Lanier, Home Living in North Georgia</h3>
+            <img style={{width: "50%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/8UG0oH5bSSAqGXA5ljrQ_magazine.jpg"/>
+            <h3 style={{padding: "0 1em", fontSize: "2.5vw", fontWeight: "lighter"}}>Steve and Dawn on the cover of LAKE Destination Lanier, Home Living in North Georgia</h3>
           </div>
           <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
-            <h3 style={{padding: "0 2em"}}>Steve and Dawn with How Money Works co-author, Tom Matthews, on Leadership Live interviewing Bob Proctor</h3>
-            <img style={{width: "40%", padding: "4em 5em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/cH3ZNlmRqmzGsVLa9If5_wealthwave.jpg"/>
+            <h3 style={{padding: "0 1em", fontSize: "2.5vw", fontWeight: "lighter"}}>Steve and Dawn with How Money Works co-author, Tom Matthews, on Leadership Live interviewing Bob Proctor</h3>
+            <img style={{width: "50%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/cH3ZNlmRqmzGsVLa9If5_wealthwave.jpg"/>
           </div>
           <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
-            <img style={{width: "40%", padding: "4em 5em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/9oAbt199QECuqkAEhgV0_marriage.jpg"/>
-            <h3 style={{padding: "0 2em"}}>A wedding portrait of Steve and Dawn</h3>
+            <img style={{width: "40%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/9oAbt199QECuqkAEhgV0_marriage.jpg"/>
+            <h3 style={{padding: "0 1em", fontSize: "2.5vw", fontWeight: "lighter"}}>A wedding portrait of Steve and Dawn</h3>
           </div>
           <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
-            <h3 style={{padding: "0 2em"}}>A picture of Dawn outside of Bona Allen Mansion, the new homebase of Siebold Success Network</h3>
-            <img style={{width: "40%", padding: "4em 5em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/CecHWLjTViZjXMgaHqOw_mansion.jpg"/>
+            <h3 style={{padding: "0 1em", fontSize: "2.5vw", fontWeight: "lighter"}}>A picture of Dawn outside of Bona Allen Mansion, the new homebase of Siebold Success Network</h3>
+            <img style={{width: "40%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/CecHWLjTViZjXMgaHqOw_mansion.jpg"/>
           </div>
         </Element>
-        <Element name="footer" style={{backgroundColor: "rgba(35, 38, 50)", color: "white", padding: "3em", textAlign: "left"}}>
-          <div style={{marginLeft: "15%"}}>
+        <Element name="footer" style={{display: "flex", flexWrap: "wrap", justifyContent: "space-around", backgroundColor: "rgba(35, 38, 50)", color: "white", padding: "3em", textAlign: "left"}}>
+          <div>
             Sex, Money and Marriage Podcast<br/>
             Bona Allen Mansion<br/>
             395 East Main St.<br/>
             Buford, Georgia 30518<br/>
             (Email) <a style={{color: "gray"}} href="mailto: contact@sexmoneymarriage.com">contact@sexmoneymarriage.com</a>
           </div>
+          <img class="siebold" style={{}} src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/YnXXsy8RuabxB9QWXTCj_govesieboldlogo.png"/>
         </Element>
     </div>
   );
