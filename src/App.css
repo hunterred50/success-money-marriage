@@ -18,6 +18,11 @@
     font-weight: 400;
     padding-bottom: .2em;
   }
+  h3.captions {
+    padding: 0 1em;
+    font-size: 2vw;
+    font-weight: 400;
+  }
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
@@ -34,6 +39,11 @@
     font-family: Oswald, sans-serif;
     font-weight: 400;
     padding-bottom: .2em;
+  }
+  h3.captions {
+    padding: 0 1em;
+    font-size: 3.5vw;
+    font-weight: 400;
   }
 }
 

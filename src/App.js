@@ -152,18 +152,18 @@ function App() {
         <h1 class="section" style={{paddingBottom: "0em"}}>Photos</h1>
           <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
             <img style={{width: "50%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/8UG0oH5bSSAqGXA5ljrQ_magazine.jpg"/>
-            <h3 style={{padding: "0 1em", fontSize: "2.5vw", fontWeight: "400"}}>Steve and Dawn on the cover of LAKE Destination Lanier, Home Living in North Georgia</h3>
+            <h3 class="captions">Steve and Dawn on the cover of LAKE Destination Lanier, Home Living in North Georgia</h3>
           </div>
           <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
-            <h3 style={{padding: "0 1em", fontSize: "2.5vw", fontWeight: "400"}}>Steve and Dawn with How Money Works co-author, Tom Matthews, on Leadership Live interviewing Bob Proctor</h3>
+            <h3 class="captions">Steve and Dawn with How Money Works co-author, Tom Matthews, on Leadership Live interviewing Bob Proctor</h3>
             <img style={{width: "50%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/cH3ZNlmRqmzGsVLa9If5_wealthwave.jpg"/>
           </div>
           <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
             <img style={{width: "40%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/9oAbt199QECuqkAEhgV0_marriage.jpg"/>
-            <h3 style={{padding: "0 1em", fontSize: "2.5vw", fontWeight: "400"}}>A wedding portrait of Steve and Dawn</h3>
+            <h3 class="captions">A wedding portrait of Steve and Dawn</h3>
           </div>
           <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
-            <h3 style={{padding: "0 1em", fontSize: "2.5vw", fontWeight: "400"}}>A picture of Dawn outside of Bona Allen Mansion, the new homebase of Siebold Success Network</h3>
+            <h3 class="captions">A picture of Dawn outside of Bona Allen Mansion, the new homebase of Siebold Success Network</h3>
             <img style={{width: "40%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/CecHWLjTViZjXMgaHqOw_mansion.jpg"/>
           </div>
         </Element>
