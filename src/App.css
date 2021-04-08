@@ -11,6 +11,18 @@
   img.siebold {
     margin-top: -20px;
   }
+  div.heroImg {
+    background-image: url("https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/HdiTsSFTmeVgfIrFWM8A_Screen_Shot_2021-03-03_at_12.02.43_PM.png");
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    min-height: 100%;
+    position: relative;
+    background-attachment: fixed;
+    display: flex;
+    z-index: 1;
+  }
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
@@ -21,17 +33,17 @@
   img.siebold {
     margin-top: 20px;
   }
+  div.heroImg {
+    background-image: url("https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/HdiTsSFTmeVgfIrFWM8A_Screen_Shot_2021-03-03_at_12.02.43_PM.png");
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto;
+    min-height: 100%;
+    position: relative;
+    background-attachment: fixed;
+    display: flex;
+    z-index: 1;
+  }
 }
 
-div.heroImg {
-  background-image: url("https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/HdiTsSFTmeVgfIrFWM8A_Screen_Shot_2021-03-03_at_12.02.43_PM.png");
-  height: 900px;
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
-  min-height: 100%;
-  position: relative;
-  background-attachment: fixed;
-  display: flex;
-  z-index: 1;
-}
