@@ -51,14 +51,14 @@ function App() {
       <div style={heroImg}>
         <div style={opaque}>
           <Element name="home" style={heroDiv}>
-            <h1 style={{fontSize: "3.2em", margin: "-30px 0 10px 0"}}>Sex, Money and Marriage</h1>
+            <h1 style={{fontSize: "5vw", margin: "-40px 0 10px 0"}}>Sex, Money and Marriage</h1>
             <div style={{width: "100%", height: "100%", display: "flex", justifyContent: "center"}}>
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="home">Home</Link>
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="episodes">Episodes</Link>
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="about">About</Link>
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="media">Media</Link>
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="photos">Photos</Link>
-              <button style={{margin: "0 10px", textDecoration: "none", color: "black", cursor: "pointer", padding: "0px 15px", borderRadius: "20px", border: "0", fontFamily: "Oswald, sans-serif", fontWeight: "400"}}>Subscribe</button>
+              <button style={{margin: "0 10px", textDecoration: "none", backgroundColor: "white", color: "black", cursor: "pointer", padding: "0px 15px", borderRadius: "20px", border: "0", fontFamily: "Oswald, sans-serif", fontWeight: "400"}}>Subscribe</button>
             </div>
             {/* <div style={{display: "flex", alignContent: "flex-end", justifyContent: "center", alignSelf: "flex-end"}}>
             <div style={{width: "50em", height: "1em", backgroundColor: "#ffffff"}}>h</div></div> */}
