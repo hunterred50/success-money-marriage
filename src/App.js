@@ -121,13 +121,21 @@ function App() {
                 featured in USA Today, Yahoo Finance, U.S. News and World Report, Chicago Sun-
                 Times, San Francisco Chronicle, New York Times, Boston Globe and dozens of
                 others. He’s written 12 books that have been published in 7 languages and sold 1.6
-                million copies. As a professional speaker, ranks among the top one percent of
+                million copies. As a professional speaker, Steve ranks among the top one percent of
                 income earners worldwide.<br/><br/>
+
+                Steve has been interviewed on over 300 TV shows as a guest expert, including The Today Show, 
+                Good Morning America, CNN Headline News, Fox Business Network, MSNBC, and The Wall Street Journal 
+                Special Report. His opinion-editorials on paying college athletes, labor unions, war on drugs, gun control, 
+                and others have been featured in USA Today, Yahoo Finance, U.S. News and World Report, Chicago Sun- Times, 
+                San Francisco Chronicle, New York Times, Boston Globe and dozens of others. He’s written 12 books that 
+                have been published in 7 languages and sold 1.6 million copies. As a professional speaker, ranks among 
+                the top one percent of income earners worldwide.<br/><br/>
 
                 The Siebold’s reside at Bona Allen Mansion, a 6-acre, 110 year old estate located in
                 Buford, Georgia, approximately 50 miles northeast of Atlanta. “The Mansion”, as it’s
-                known locally, was the private home of Bonaparte “Bona” Allen, the late 19 th and
-                early 20 th century industrialist, who founded and built the <i>Bona Allen Company</i>,
+                known locally, was the private home of Bonaparte “Bona” Allen, the late 19th and
+                early 20th century industrialist, who founded and built the <i>Bona Allen Company</i>,
                 which for decades was the largest manufacturer of leather goods in the world.<br/><br/>
 
                 Steve and Dawn live with their two rescue dogs, Luna-Tuna and Big Lou.<br/>
@@ -163,9 +171,22 @@ function App() {
             <h3 class="captions">A wedding portrait of Steve and Dawn</h3>
           </div>
           <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
-            <h3 class="captions">A picture of Dawn outside of Bona Allen Mansion, the new homebase of Siebold Success Network</h3>
-            <img style={{width: "40%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/CecHWLjTViZjXMgaHqOw_mansion.jpg"/>
+            <h3 class="captions">Steve and Dawn's wedding announcement from 1986</h3>
+            <img style={{width: "40%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/qpIoWfonQ9GzrUbp4w8A_Screen_Shot_2021-04-08_at_6.28.53_PM.png"/>
           </div>
+          <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
+            <img style={{width: "40%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/CecHWLjTViZjXMgaHqOw_mansion.jpg"/>
+            <h3 class="captions">A picture of Dawn outside of Bona Allen Mansion, the new homebase of Siebold Success Network</h3>
+          </div>
+          <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
+            <h3 class="captions">The Main house @ Bona Allen Mansion</h3>
+            <img style={{width: "40%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/MEdZLO81Syas9g0feceX_Screen_Shot_2021-04-08_at_6.26.52_PM.png"/>
+          </div>
+          <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
+            <img style={{width: "40%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/7LIRInaR86G1abypJzj7_Screen_Shot_2021-04-08_at_6.28.04_PM.png"/>
+            <h3 class="captions">Steve on camera on the tennis court @ Bona Allen Mansion</h3>
+          </div>
+          
         </Element>
         <Element name="footer" style={{display: "flex", flexWrap: "wrap", justifyContent: "space-around", backgroundColor: "rgba(35, 38, 50)", color: "white", padding: "3em", textAlign: "left"}}>
           <div>
