@@ -175,16 +175,24 @@ function App() {
             <img style={{width: "40%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/qpIoWfonQ9GzrUbp4w8A_Screen_Shot_2021-04-08_at_6.28.53_PM.png"/>
           </div>
           <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
-            <img style={{width: "40%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/CecHWLjTViZjXMgaHqOw_mansion.jpg"/>
+            <img style={{width: "40%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/cCAFetmbTZedQ4TfJtUG_File_000.jpeg"/>
+            <h3 class="captions">A wedding photo from Steve and Dawn's wedding</h3>
+          </div>
+          <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
             <h3 class="captions">A picture of Dawn outside of Bona Allen Mansion, the new homebase of Siebold Success Network</h3>
+            <img style={{width: "40%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/CecHWLjTViZjXMgaHqOw_mansion.jpg"/>
           </div>
           <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
-            <h3 class="captions">The Main house @ Bona Allen Mansion</h3>
             <img style={{width: "40%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/MEdZLO81Syas9g0feceX_Screen_Shot_2021-04-08_at_6.26.52_PM.png"/>
+            <h3 class="captions">The Main house @ Bona Allen Mansion</h3>
           </div>
           <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
-            <img style={{width: "40%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/7LIRInaR86G1abypJzj7_Screen_Shot_2021-04-08_at_6.28.04_PM.png"/>
             <h3 class="captions">Steve on camera on the tennis court @ Bona Allen Mansion</h3>
+            <img style={{width: "40%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/7LIRInaR86G1abypJzj7_Screen_Shot_2021-04-08_at_6.28.04_PM.png"/>
+          </div>
+          <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
+            <img style={{width: "40%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/qngK3e73R72q7WwICDnC_File_001.jpeg"/>
+            <h3 class="captions">Steve and Dawn's two rescue dogs, Luna-Tuna and Big Lou</h3>
           </div>
           
         </Element>
