@@ -124,14 +124,6 @@ function App() {
                 million copies. As a professional speaker, Steve ranks among the top one percent of
                 income earners worldwide.<br/><br/>
 
-                Steve has been interviewed on over 300 TV shows as a guest expert, including The Today Show, 
-                Good Morning America, CNN Headline News, Fox Business Network, MSNBC, and The Wall Street Journal 
-                Special Report. His opinion-editorials on paying college athletes, labor unions, war on drugs, gun control, 
-                and others have been featured in USA Today, Yahoo Finance, U.S. News and World Report, Chicago Sun- Times, 
-                San Francisco Chronicle, New York Times, Boston Globe and dozens of others. He’s written 12 books that 
-                have been published in 7 languages and sold 1.6 million copies. As a professional speaker, ranks among 
-                the top one percent of income earners worldwide.<br/><br/>
-
                 The Siebold’s reside at Bona Allen Mansion, a 6-acre, 110 year old estate located in
                 Buford, Georgia, approximately 50 miles northeast of Atlanta. “The Mansion”, as it’s
                 known locally, was the private home of Bonaparte “Bona” Allen, the late 19th and
@@ -163,7 +155,7 @@ function App() {
             <h3 class="captions">Steve and Dawn on the cover of LAKE Destination Lanier, Home Living in North Georgia</h3>
           </div>
           <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
-            <h3 class="captions">Steve and Dawn with How Money Works co-author, Tom Matthews, on Leadership Live interviewing Bob Proctor</h3>
+            <h3 class="captions">Steve and Dawn with How Money Works co-author, Tom Mathews, on Leadership Live interviewing Bob Proctor</h3>
             <img style={{width: "50%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/cH3ZNlmRqmzGsVLa9If5_wealthwave.jpg"/>
           </div>
           <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
