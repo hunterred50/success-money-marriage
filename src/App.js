@@ -67,7 +67,7 @@ function App() {
               This weekly podcast explores key issues involving sex, money and marriage in
               modern day America. The shows objective is to explore multiple points of view on
               subjects that matter. After almost four decades of living together, being married,
-              traveling the world, building businesses and negotiating substantial sex drives,
+              traveling the world, and building businesses,
               there are few obstacles this couple hasn’t encountered. After a lifetime of mistakes,
               missteps and successes, the Siebold’s offer a unique perspective.
             </p>
@@ -96,7 +96,7 @@ function App() {
 
                 In 2012, Steve wrote a book called <i><u>Sex, Politics and Religion: How Delusional
                 Thinking is Destroying America</u></i>, which was panned by critics for its unapologetic
-                approach to sensitive subjects such as open marriage, pornography, prostitution,
+                approach to sensitive subjects such as marriage, pornography, prostitution,
                 war on drugs, assisted suicide, childless by choice, legalized gambling, gun control,
                 school prayer, catholic church sex scandal, unions, tantra, and others.
                 The premise of Siebold’s philosophy is that no matter what your ideology, our
@@ -107,8 +107,8 @@ function App() {
                 of this podcast.<br/><br/>
 
                 Steve and Dawn are Certified Financial Educators and lead a team of financial
-                educators and experts with offices in 40 states throughout the U.S. and 4 provinces
-                in Canada. Their organization helps thousands of clients protect, invest and grow
+                educators and experts with offices in 36 offices throughout the U.S. and
+                Canada. Their organization helps thousands of clients protect, invest and grow
                 their wealth. Steve and Dawn deliver speeches and seminars on the foundational
                 elements of personal finance. In 2020, Steve co-authored the #1 selling personal
                 finance book of 2020, <u><i>How Money Works: Stop Being a Sucker</i></u>, with financial titan
@@ -124,7 +124,7 @@ function App() {
                 million copies. As a professional speaker, Steve ranks among the top one percent of
                 income earners worldwide.<br/><br/>
 
-                The Siebold’s reside at Bona Allen Mansion, a 6-acre, 110 year old estate located in
+                The Siebold’s reside at Bona Allen Mansion, a 6-acre, 110-year old estate located in
                 Buford, Georgia, approximately 50 miles northeast of Atlanta. “The Mansion”, as it’s
                 known locally, was the private home of Bonaparte “Bona” Allen, the late 19th and
                 early 20th century industrialist, who founded and built the <i>Bona Allen Company</i>,
@@ -135,16 +135,12 @@ function App() {
             </div>
           </div>
         </Element>
-        <Element name="media" style={{backgroundColor: "white", color: "rgba(35, 38, 50)", paddingBottom: "10em", display: "flex", justifyContent: "center", height: "100%", width: "75%", marginLeft: "12%", marginTop: "5em", marginBottom: "0em", flexDirection: "column", alignContent: "flex-start"}}>
+        <Element name="media" style={{backgroundColor: "white", color: "rgba(35, 38, 50)", paddingBottom: "10em", display: "flex", justifyContent: "center", height: "100%", width: "80%", marginLeft: "12%", marginTop: "5em", marginBottom: "0em", flexDirection: "column", alignContent: "flex-start"}}>
           <h1 class="section">Media</h1>
           <div style={{textAlign: "center", paddingTop: ".4em"}}>
             Steve Siebold is a regular guest on TV News shows across the country, including The
             Today Show, Good Morning America, CNN Headline News, Fox Business Network,
             MSNBC, and The Wall Street Journal Special Report.<br/><br/>
-
-            {/* (Post Today Show, Good Morning America, Hardball with Chris Mathews, Fox
-            Business Network w/Stuart Varney, and the rest big city interviews on How Money
-            Works, (use all the in-studio interviews that you can) */}
           </div>
           <Media />
         </Element>
@@ -160,7 +156,7 @@ function App() {
           </div>
           <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
             <img style={{width: "40%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/9oAbt199QECuqkAEhgV0_marriage.jpg"/>
-            <h3 class="captions">A wedding portrait of Steve and Dawn</h3>
+            <h3 class="captions">A college photo of Steve and Dawn</h3>
           </div>
           <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
             <h3 class="captions">Steve and Dawn's wedding announcement from 1986</h3>
