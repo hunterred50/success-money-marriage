@@ -3,6 +3,7 @@ import {Link, Element} from 'react-scroll';
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 import Media from './components/Media';
+import Subscribe from './components/Subscribe';
 
 var heroDiv = {
   textAlign: "center",
@@ -46,7 +47,7 @@ function App() {
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="about">About</Link>
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="media">Media</Link>
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="photos">Photos</Link>
-              <button style={{margin: "0 10px", textDecoration: "none", backgroundColor: "white", color: "black", cursor: "pointer", padding: "0px 15px", borderRadius: "20px", border: "0", fontFamily: "Oswald, sans-serif", fontWeight: "400"}}>Subscribe</button>
+              <Subscribe />
             </div>
             {/* <div style={{display: "flex", alignContent: "flex-end", justifyContent: "center", alignSelf: "flex-end"}}>
             <div style={{width: "50em", height: "1em", backgroundColor: "#ffffff"}}>h</div></div> */}
