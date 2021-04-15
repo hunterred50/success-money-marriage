@@ -219,7 +219,7 @@ export default class Media extends Component {
           <Link activeClass="active" spy={true} smooth={true} duration={500} to="video">
             <div style={{padding: "1em", display: "flex", flexDirection: "column"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/fvvg3r441t?videoFoam=true", "'How Money Works' Author Steve Siebold on Studio 10", "Studio 10 • NBC Lansing • Lansing")}>
               <img style={{width: "15em"}} alt="hrpt" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/YAxyDVfSEWlhapNm4V6H_0.PNG" />              
-              <div style={{width: "15em"}}>NBC Lancing</div>
+              <div style={{width: "15em"}}>NBC Lansing</div>
             </div>
           </Link>
           <Link activeClass="active" spy={true} smooth={true} duration={500} to="video">
@@ -288,12 +288,18 @@ export default class Media extends Component {
               <div style={{width: "15em"}}>Great Day Tampa Bay</div>
             </div>
           </Link>
-          {/* <Link activeClass="active" spy={true} smooth={true} duration={500} to="video">
+          <Link activeClass="active" spy={true} smooth={true} duration={500} to="video">
             <div style={{padding: "1em", display: "flex", flexDirection: "column"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/xprl71q9q1?videoFoam=true", "How do we change our attitudes about money?", "Daytime HMW • NBC 8 WFLA • Tampa")}>
               <img style={{width: "15em"}} alt="hrpt" src="" />              
               <div style={{width: "15em"}}>Great Day Tampa Bay</div>
             </div>
-          </Link> */}
+          </Link>
+          <Link activeClass="active" spy={true} smooth={true} duration={500} to="video">
+            <div style={{padding: "1em", display: "flex", flexDirection: "column"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/xprl71q9q1?videoFoam=true", "How do we change our attitudes about money?", "Daytime HMW • NBC 8 WFLA • Tampa")}>
+              <img style={{width: "15em"}} alt="hrpt" src="" />              
+              <div style={{width: "15em"}}>Great Day Tampa Bay</div>
+            </div>
+          </Link>
         </div>
 
         <Element name="video">

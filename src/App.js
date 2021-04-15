@@ -107,7 +107,7 @@ function App() {
                 of this podcast.<br/><br/>
 
                 Steve and Dawn are Certified Financial Educators and lead a team of financial
-                educators and experts with offices in 36 offices throughout the U.S. and
+                educators and experts with 36 offices throughout the U.S. and
                 Canada. Their organization helps thousands of clients protect, invest and grow
                 their wealth. Steve and Dawn deliver speeches and seminars on the foundational
                 elements of personal finance. In 2020, Steve co-authored the #1 selling personal
@@ -118,8 +118,8 @@ function App() {
                 Today Show, Good Morning America, CNN Headline News, Fox Business Network,
                 MSNBC, and The Wall Street Journal Special Report</i>. His opinion-editorials on paying
                 college athletes, labor unions, war on drugs, gun control, and others have been
-                featured in USA Today, Yahoo Finance, U.S. News and World Report, Chicago Sun-
-                Times, San Francisco Chronicle, New York Times, Boston Globe and dozens of
+                featured in USA Today, Yahoo Finance, U.S. News and World Report, Chicago Sun-Times,
+                San Francisco Chronicle, New York Times, Boston Globe and dozens of
                 others. He’s written 12 books that have been published in 7 languages and sold 1.6
                 million copies. As a professional speaker, Steve ranks among the top one percent of
                 income earners worldwide.<br/><br/>
@@ -180,7 +180,7 @@ function App() {
           </div>
           <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center"}}>
             <img style={{width: "40%", padding: "2em 1em"}} alt="magazine" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/qngK3e73R72q7WwICDnC_File_001.jpeg"/>
-            <h3 class="captions">Steve and Dawn's two rescue dogs, Luna-Tuna and Big Lou</h3>
+            <h3 class="captions" style={{fontSize: "2.5vw"}}>Steve and Dawn's two rescue dogs, Luna-Tuna and Big Lou</h3>
           </div>
           
         </Element>
