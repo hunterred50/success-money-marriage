@@ -267,7 +267,7 @@ export default class Media extends Component {
           <Link activeClass="active" spy={true} smooth={true} duration={500} to="video">
             <div style={{padding: "1em", display: "flex", flexDirection: "column"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/235u6n2y9d?videoFoam=true", "How couples can see eye-to-eye when it comes to money", "9&10 News the four • 9&10 News WWTV • Traverse City")}>
               <img style={{width: "15em"}} alt="hrpt" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/VF10lOodQ6mzjYGSyMdw_0.PNG" />              
-              <div style={{width: "15em"}}>9&10 News the four</div>
+              <div style={{width: "15em"}}>9&10 News the four Traverse City</div>
             </div>
           </Link>
           <Link activeClass="active" spy={true} smooth={true} duration={500} to="video">
@@ -289,15 +289,51 @@ export default class Media extends Component {
             </div>
           </Link>
           <Link activeClass="active" spy={true} smooth={true} duration={500} to="video">
-            <div style={{padding: "1em", display: "flex", flexDirection: "column"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/xprl71q9q1?videoFoam=true", "How do we change our attitudes about money?", "Daytime HMW • NBC 8 WFLA • Tampa")}>
-              <img style={{width: "15em"}} alt="hrpt" src="" />              
-              <div style={{width: "15em"}}>Great Day Tampa Bay</div>
+            <div style={{padding: "1em", display: "flex", flexDirection: "column"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/wn8403te7q?videoFoam=true", "How couples can better see eye-to-eye on money as Valentine's Day approaches", "Daytime HMW • NBC 8 WFLA • Tampa")}>
+              <img style={{width: "15em"}} alt="hrpt" src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3210473/settings_images/u4lCQEjlRTG5FlpF4ElX_0.PNG" />              
+              <div style={{width: "15em"}}>Daytime Tampa</div>
             </div>
           </Link>
           <Link activeClass="active" spy={true} smooth={true} duration={500} to="video">
-            <div style={{padding: "1em", display: "flex", flexDirection: "column"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/xprl71q9q1?videoFoam=true", "How do we change our attitudes about money?", "Daytime HMW • NBC 8 WFLA • Tampa")}>
-              <img style={{width: "15em"}} alt="hrpt" src="" />              
-              <div style={{width: "15em"}}>Great Day Tampa Bay</div>
+            <div style={{padding: "1em", display: "flex", flexDirection: "column"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/2wocuknqdy?videoFoam=true", "How couples can work through their differences when it comes to money", "Good Morning Washington • ABC 7 WJLA • Washington")}>
+              <img style={{width: "15em"}} alt="hrpt" src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3210473/settings_images/LUAIW0X3QFCRA9lzMc9K_0.PNG" />              
+              <div style={{width: "15em"}}>Good Morning Washington</div>
+            </div>
+          </Link>
+          <Link activeClass="active" spy={true} smooth={true} duration={500} to="video">
+            <div style={{padding: "1em", display: "flex", flexDirection: "column"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/h99rcmww0d?videoFoam=true", "How couples can overcome their financial differences", "Can You Relate? • KWTV News 9 • Oklahoma City")}>
+              <img style={{width: "15em"}} alt="hrpt" src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3210473/settings_images/wvb7QRw3QP6YjxRsbWsI_0.PNG" />              
+              <div style={{width: "15em"}}>Can You Relate? Oklahoma City</div>
+            </div>
+          </Link>
+          <Link activeClass="active" spy={true} smooth={true} duration={500} to="video">
+            <div style={{padding: "1em", display: "flex", flexDirection: "column"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/0bujh1gr2o?videoFoam=true", "How to do a financial spring cleaning", "Daytime with Kimberly & Esteban • Fox 29 KABB • San Antonio")}>
+              <img style={{width: "15em"}} alt="hrpt" src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3210473/settings_images/3txBOmPCTmezCd1Oyw2m_0.PNG" />              
+              <div style={{width: "15em"}}>Daytime with Kimberly & Esteban San Antonio</div>
+            </div>
+          </Link>
+          <Link activeClass="active" spy={true} smooth={true} duration={500} to="video">
+            <div style={{padding: "1em", display: "flex", flexDirection: "column"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/a8jz31x6k0?videoFoam=true", "How to Spring Clean your Finances", "Talk of Alabama • ABC 33/40 • Birmingham")}>
+              <img style={{width: "15em"}} alt="hrpt" src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3210473/settings_images/yqHvOtmJSO69gJIt4xey_0.PNG" />              
+              <div style={{width: "15em"}}>Talk of Alabama</div>
+            </div>
+          </Link>
+          <Link activeClass="active" spy={true} smooth={true} duration={500} to="video">
+            <div style={{padding: "1em", display: "flex", flexDirection: "column"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/b3e75isnnn?videoFoam=true", "How to spring clean your finances", "KTLA Morning News HMW • CW 5 KTLA • Los Angeles")}>
+              <img style={{width: "15em"}} alt="hrpt" src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3210473/settings_images/rDmZKI9OS6OYydoHDVzg_0.PNG" />              
+              <div style={{width: "15em"}}>KTLA Morning News</div>
+            </div>
+          </Link>
+          <Link activeClass="active" spy={true} smooth={true} duration={500} to="video">
+            <div style={{padding: "1em", display: "flex", flexDirection: "column"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/zsnpsw1dwo?videoFoam=true", "How to do a financial spring cleaning", "9&10 News the four HMW • 9&10 News WWTV • Traverse City")}>
+              <img style={{width: "15em"}} alt="hrpt" src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3210473/settings_images/aGSqI1FlQoq8ZaukK5Kt_0.PNG" />              
+              <div style={{width: "15em"}}>9&10 News the four Traverse City</div>
+            </div>
+          </Link>
+          <Link activeClass="active" spy={true} smooth={true} duration={500} to="video">
+            <div style={{padding: "1em", display: "flex", flexDirection: "column"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/66zbcpybt1?videoFoam=true", "Financial Literacy Month and how people can be smarter with their money", "Sullivan's Smart Sense • FOX 26 • Houston")}>
+              <img style={{width: "15em"}} alt="hrpt" src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3210473/settings_images/FHITJIg5TymKU5w5Wpob_0.PNG" />              
+              <div style={{width: "15em"}}>Sullivan's Smart Sense Houston</div>
             </div>
           </Link>
         </div>
