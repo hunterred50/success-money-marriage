@@ -40,7 +40,7 @@ function App() {
       <div class="heroImg">
         <div style={opaque}>
           <Element name="home" style={heroDiv}>
-            <h1 class="title" style={{margin: "-40px 0 10px 0"}}>Sex, Money and Marriage</h1>
+            <h1 class="title" style={{margin: "-40px 0 10px 0"}}>Success, Money and Marriage</h1>
             <div style={{width: "100%", height: "100%", display: "flex", justifyContent: "center"}}>
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="home">Home</Link>
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="episodes">Episodes</Link>
@@ -63,9 +63,9 @@ function App() {
       </Element>
       </div>
       <Element name="about" style={{backgroundColor: "rgba(35, 38, 50)", color: "white", paddingBottom: "10em"}}>
-          <h1 class="section">Sex, Money and Marriage</h1>
+          <h1 class="section">Success, Money and Marriage</h1>
             <p style={{paddingBottom: "5em", width: "60%", marginLeft: "20%"}}>
-              This weekly podcast explores key issues involving sex, money and marriage in
+              This weekly podcast explores key issues involving success, money and marriage in
               modern day America. The shows objective is to explore multiple points of view on
               subjects that matter. After almost four decades of living together, being married,
               traveling the world, and building businesses,
@@ -187,11 +187,11 @@ function App() {
         </Element>
         <Element name="footer" style={{display: "flex", flexWrap: "wrap", justifyContent: "space-around", backgroundColor: "rgba(35, 38, 50)", color: "white", padding: "3em", textAlign: "left"}}>
           <div>
-            Sex, Money and Marriage Podcast<br/>
+          Success, Money and Marriage Podcast<br/>
             Bona Allen Mansion<br/>
             395 East Main St.<br/>
             Buford, Georgia 30518<br/>
-            (Email) <a style={{color: "gray"}} href="mailto: contact@sexmoneymarriage.com">contact@sexmoneymarriage.com</a>
+            (Email) <a style={{color: "gray"}} href="mailto: contact@successmoneymarriage.com">contact@successmoneymarriage.com</a>
           </div>
           <a target="_blank" rel="noreferrer" href="https://sieboldnetwork.com/">
             <img class="siebold" alt="siebold logo" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/YnXXsy8RuabxB9QWXTCj_govesieboldlogo.png"/>
