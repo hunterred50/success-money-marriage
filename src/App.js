@@ -65,12 +65,16 @@ function App() {
       <Element name="about" style={{backgroundColor: "rgba(35, 38, 50)", color: "white", paddingBottom: "10em"}}>
           <h1 class="section">Success, Money and Marriage</h1>
             <p style={{paddingBottom: "5em", width: "60%", marginLeft: "20%"}}>
-              This weekly podcast explores key issues involving success, money and marriage in
+              This weekly podcast explores key issues involving success, money and marriage in modern day America. 
+              The shows objective is to explore multiple points of view on subjects that matter. After almost four 
+              decades of marriage, business, and managing money, there are few obstacles this couple hasn’t encountered. 
+              After a lifetime of mistakes, missteps and successes, the Siebold’s offer a unique perspective.
+              {/* This weekly podcast explores key issues involving success, money and marriage in
               modern day America. The shows objective is to explore multiple points of view on
               subjects that matter. After almost four decades of living together, being married,
               traveling the world, and building businesses,
               there are few obstacles this couple hasn’t encountered. After a lifetime of mistakes,
-              missteps and successes, the Siebold’s offer a unique perspective.
+              missteps and successes, the Siebold’s offer a unique perspective. */}
             </p>
           <h1 class="section">About Us</h1>
           <div style={{display: "flex", justifyContent: "center", alignItems: "flex-start", flexDirection: "column"}}>
@@ -87,51 +91,44 @@ function App() {
             </div>
             <div style={{display: "flex", justifyContent: "center"}}>
               <p style={{width: "80%", textAlign: "left"}}>
-                Steve and Dawn Siebold were married in Freeport, Bahamas on April 6, 1986.
-                As a married couple, they’ve struggled, succeeded, failed, fought, made up and
-                reinvented their relationship over and over again.<br/><br/>
+                Steve and Dawn Siebold were married in Freeport, Bahamas on April 6, 1986. 
+                As a married couple, they’ve succeeded, failed, fought, made up and reinvented 
+                their relationship over and over again. <br/><br/>
 
-                Together, they’ve built four multimillion companies from the ground up with offices
-                in 40 states and 10 countries around the world. More information regarding the
-                couple’s business ventures can be found at <a style={{color: "gray"}} href="https://sieboldnetwork.com/">www.SieboldNetwork.com</a><br/><br/>
+                Together, they’ve built four multimillion companies from the ground up employing over 
+                500 people with offices in 39 states and 10 countries around the world. More information 
+                regarding the couple’s business ventures can be found at 
+                <a style={{color: "gray"}} href="https://sieboldnetwork.com/">www.SieboldNetwork.com</a><br/><br/>
 
-                In 2012, Steve wrote a book called <i><u>Sex, Politics and Religion: How Delusional
-                Thinking is Destroying America</u></i>, which was panned by critics for its unapologetic
-                approach to sensitive subjects such as marriage, pornography, prostitution,
-                war on drugs, assisted suicide, childless by choice, legalized gambling, gun control,
-                school prayer, catholic church sex scandal, unions, tantra, and others.
-                The premise of Siebold’s philosophy is that no matter what your ideology, our
-                society should possess the emotional maturity to engage in robust dialogue to
-                elevate our collective consciousness and arrive at a greater level of mutual
-                understanding. During a time of unprecedented political polarization, respectful
-                discussion/dissention minus ad hominem attacks and demonization is the essence
-                of this podcast.<br/><br/>
+                Steve is the author of 12 books, which have been panned by critics for their unapologetic approach 
+                to sensitive subjects such as the war on drugs, self-made millionaires, assisted suicide, childless 
+                marriage, legalized gambling, gun control, school prayer, catholic church sex scandal, labor unions, and others. <br/><br/>
 
-                Steve and Dawn are Certified Financial Educators and lead a team of financial
-                educators and experts with 36 offices throughout the U.S. and
-                Canada. Their organization helps thousands of clients protect, invest and grow
-                their wealth. Steve and Dawn deliver speeches and seminars on the foundational
-                elements of personal finance. In 2020, Steve co-authored the #1 selling personal
-                finance book of 2020, <u><i>How Money Works: Stop Being a Sucker</i></u>, with financial titan
-                Tom Mathews. The book has sold over 500,000 copies.<br/><br/>
+                The premise of Siebold’s philosophy is that no matter what your ideology, our society should possess 
+                the emotional maturity to engage in robust dialogue to elevate our collective consciousness and arrive 
+                at a greater level of mutual understanding. During a time of unprecedented political polarization, 
+                respectful discussion/dissention minus ad hominem attacks and demonization is the essence of this podcast. <br/><br/>
 
-                Steve has been interviewed on over 300 TV shows as a guest expert, including <i>The
-                Today Show, Good Morning America, CNN Headline News, Fox Business Network,
-                MSNBC, and The Wall Street Journal Special Report</i>. His opinion-editorials on paying
-                college athletes, labor unions, war on drugs, gun control, and others have been
-                featured in USA Today, Yahoo Finance, U.S. News and World Report, Chicago Sun-Times,
-                San Francisco Chronicle, New York Times, Boston Globe and dozens of
-                others. He’s written 12 books that have been published in 7 languages and sold 1.6
-                million copies. As a professional speaker, Steve ranks among the top one percent of
-                income earners worldwide.<br/><br/>
+                Steve and Dawn are Certified Financial Educators and lead a team of financial educators and experts 
+                with offices in 39 states throughout the U.S. and 4 provinces in Canada. Their organization helps 
+                thousands of clients protect, invest and grow their wealth. Steve and Dawn deliver speeches and 
+                seminars on the foundational elements of personal finance.  In 2020, Steve co-authored the #1 
+                selling personal finance book of 2020, <u><i>How Money Works: Stop Being a Sucker</i></u>, with financial titan 
+                Tom Mathews. The book has sold over 500,000 copies. <br/><br/>
 
-                The Siebold’s reside at Bona Allen Mansion, a 6-acre, 110-year old estate located in
-                Buford, Georgia, approximately 50 miles northeast of Atlanta. “The Mansion”, as it’s
-                known locally, was the private home of Bonaparte “Bona” Allen, the late 19th and
-                early 20th century industrialist, who founded and built the <i>Bona Allen Company</i>,
-                which for decades was the largest manufacturer of leather goods in the world.<br/><br/>
+                Steve has been interviewed on over 400 TV shows as a guest expert, including <i>The Today Show, 
+                Good Morning America, CNN Headline News, Fox Business Network, MSNBC, and The Wall Street Journal 
+                Special Report</i>. His opinion-editorials have been featured in USA Today, Yahoo Finance, U.S. News 
+                and World Report, Chicago Sun-Times, San Francisco Chronicle, New York Times, Boston Globe and 
+                dozens of others. He’s written 12 books that have been published in 7 languages and sold 1.6 million 
+                copies. As a professional speaker, ranks among the top one percent of income earners worldwide. <br/><br/>
 
-                Steve and Dawn live with their two rescue dogs, Luna-Tuna and Big Lou.<br/>
+                The Siebold’s reside at Bona Allen Mansion, a 6-acre, 111-year-old private estate located in Buford, 
+                Georgia, approximately 50 miles northeast of Atlanta. “The Mansion”, as it’s known locally, was the 
+                private home of Bonaparte “Bona” Allen, the late 19th and early 20th century industrialist, who 
+                founded and built the <i>Bona Allen Company</i>, which for decades was the largest manufacturer of leather goods in the world. <br/><br/>
+
+                Steve and Dawn live with their two rescue dogs, Luna-Tuna and Big Lou. <br/>
               </p>
             </div>
           </div>
@@ -185,6 +182,15 @@ function App() {
           </div>
           
         </Element>
+        {/* <Element name="media" style={{backgroundColor: "white", color: "rgba(35, 38, 50)", paddingBottom: "10em", display: "flex", justifyContent: "center", height: "100%", width: "80%", marginLeft: "12%", marginTop: "5em", marginBottom: "0em", flexDirection: "column", alignContent: "flex-start"}}>
+          <h1 class="section">Success, Money, and Marriage Podcast</h1>
+          <div style={{textAlign: "center", paddingTop: ".4em"}}>
+            This weekly podcast explores key issues involving success, money and marriage in modern day America. 
+            The shows objective is to explore multiple points of view on subjects that matter. After almost four 
+            decades of marriage, business, and managing money, there are few obstacles this couple hasn’t encountered. 
+            After a lifetime of mistakes, missteps and successes, the Siebold’s offer a unique perspective. <br/><br/>
+          <button style={{width: "30%", height: "40px", fontSize: "1em"}}>Listen Now</button></div>
+        </Element> */}
         <Element name="footer" style={{display: "flex", flexWrap: "wrap", justifyContent: "space-around", backgroundColor: "rgba(35, 38, 50)", color: "white", padding: "3em", textAlign: "left"}}>
           <div>
           Success, Money and Marriage Podcast<br/>
