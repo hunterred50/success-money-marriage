@@ -37,21 +37,21 @@ function App() {
   const [vidLink, setVidLink] = useState("https://fast.wistia.net/embed/iframe/wg2kqa2vgf?videoFoam=true")
 
   const handleClick = (num) => {
-    if (num == "1") {
+    if (num === "1") {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147675359.mp3");
-    } else if (num == "2") {
+    } else if (num === "2") {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147675361.mp3");
-    } else if (num == "3") {
+    } else if (num === "3") {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147675364.mp3");
     }
   };
 
   const handleVidClick = (num) => {
-    if (num == "1") {
+    if (num === "1") {
       setVidLink("https://fast.wistia.net/embed/iframe/wg2kqa2vgf?videoFoam=true");
-    } else if (num == "2") {
+    } else if (num === "2") {
       setVidLink("https://fast.wistia.net/embed/iframe/003gwiiqq0?videoFoam=true");
-    } else if (num == "3") {
+    } else if (num === "3") {
       setVidLink("https://fast.wistia.net/embed/iframe/rj1yw554ap?videoFoam=true");
     }
     console.log("check")
