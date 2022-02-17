@@ -48,9 +48,9 @@ function App() {
     } else if (num === 5) {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147675378.mp3");
     } 
-    // else if (num === 6) {
-    //   setTrackLink("https://app.kajabi.com/podcasts/medias/2147675364.mp3");
-    // } else if (num === 7) {
+    else if (num === 6) {
+      setTrackLink("https://app.kajabi.com/podcasts/medias/2147675364.mp3");
+    } //else if (num === 7) {
     //   setTrackLink("https://app.kajabi.com/podcasts/medias/2147675364.mp3");
     // } else if (num === 8) {
     //   setTrackLink("https://app.kajabi.com/podcasts/medias/2147675364.mp3");
@@ -69,9 +69,9 @@ function App() {
     } else if (num === 5) {
       setVidLink("https://fast.wistia.net/embed/iframe/aadyfj3nm1?videoFoam=true");
     } 
-    // else if (num === 6) {
-    //   setVidLink("https://fast.wistia.net/embed/iframe/nssvkmxje1?videoFoam=true");
-    // } else if (num === 7) {
+    else if (num === 6) {
+      setVidLink("https://fast.wistia.net/embed/iframe/nssvkmxje1?videoFoam=true");
+    } //else if (num === 7) {
     //   setVidLink("https://fast.wistia.net/embed/iframe/lz4q1rlgu7?videoFoam=true");
     // } else if (num === 8) {
     //   setVidLink("https://fast.wistia.net/embed/iframe/2ca4wp9iti?videoFoam=true");
