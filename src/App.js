@@ -111,6 +111,11 @@ function App() {
           <div onClick={() => handleClick(1)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 1: Introduction</div>
           <div onClick={() => handleClick(2)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 2: Building a Relationship While Building a Business</div>
           <div onClick={() => handleClick(3)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 3: How to Fight Fair in Business</div>
+          <div onClick={() => handleClick(4)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 4: Money</div>
+          <div onClick={() => handleClick(5)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 5: Having Escape Time</div>
+          <div onClick={() => handleClick(6)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 6: Who Makes the Final Decision?</div>
+          {/* <div onClick={() => handleClick(3)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 7: How to Fight Fair in Business</div>
+          <div onClick={() => handleClick(3)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 8: How to Fight Fair in Business</div> */}
           <h1 style={{fontFamily: "Oswald, sans-serif", fontWeight: "400"}}>Or watch to the show:</h1>
           <div id="video" style={{width: "90%", margin: "auto"}}>
             <div className="wistia_responsive_padding" style={{padding: "56.25% 0 0 0", position: "relative"}}><div className="wistia_responsive_wrapper" style={{height: "100%", left: "0", position: "absolute", top: "0", width: "100%"}}>
@@ -120,6 +125,11 @@ function App() {
           <div onClick={() => handleVidClick(1)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 1: Introduction</div>
           <div onClick={() => handleVidClick(2)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 2: Building a Relationship While Building a Business</div>
           <div onClick={() => handleVidClick(3)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 3: How to Fight Fair in Business</div>
+          <div onClick={() => handleVidClick(4)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 4: Money</div>
+          <div onClick={() => handleVidClick(5)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 5: Having Escape Time</div>
+          <div onClick={() => handleVidClick(6)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 6: Who Makes the Final Decision?</div>
+          {/* <div onClick={() => handleVidClick(3)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 3: How to Fight Fair in Business</div>
+          <div onClick={() => handleVidClick(3)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 3: How to Fight Fair in Business</div> */}
         </div>
       </Element>
       </div>
