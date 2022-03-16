@@ -54,6 +54,10 @@ function App() {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147675364.mp3");
     } else if (num === 8) {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147675364.mp3");
+    } else if (num === 9) {
+      setTrackLink("https://app.kajabi.com/podcasts/medias/2147684074.mp3");
+    } else if (num === 10) {
+      setTrackLink("https://app.kajabi.com/podcasts/medias/2147699123.mp3");
     }
   };
 
@@ -75,6 +79,12 @@ function App() {
       setVidLink("https://fast.wistia.net/embed/iframe/lz4q1rlgu7?videoFoam=true");
     } else if (num === 8) {
       setVidLink("https://fast.wistia.net/embed/iframe/2ca4wp9iti?videoFoam=true");
+    }
+    else if (num === 9) {
+      setVidLink("https://fast.wistia.net/embed/iframe/1em62b0jdo?videoFoam=true");
+    }
+    else if (num === 10) {
+      setVidLink("https://fast.wistia.net/embed/iframe/wqurvfavep?videoFoam=true");
     }
   };
 
@@ -116,6 +126,11 @@ function App() {
           <div onClick={() => handleClick(6)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 6: Who Makes the Final Decision?</div>
           <div onClick={() => handleClick(7)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 7: How to Fight Fair in Business</div>
           <div onClick={() => handleClick(8)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 8: Who's Working Harder?</div>
+          <div onClick={() => handleClick(9)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 9: Patience and Forgiveness</div>
+          <div onClick={() => handleClick(10)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 10: Negotiating Massive Success</div>
+          {/* <div onClick={() => handleClick(11)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 11: Who's Working Harder?</div>
+          <div onClick={() => handleClick(12)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 8: Who's Working Harder?</div>
+          <div onClick={() => handleClick(13)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 8: Who's Working Harder?</div> */}
           <h1 style={{fontFamily: "Oswald, sans-serif", fontWeight: "400"}}>Or watch to the show:</h1>
           <div id="video" style={{width: "90%", margin: "auto"}}>
             <div className="wistia_responsive_padding" style={{padding: "56.25% 0 0 0", position: "relative"}}><div className="wistia_responsive_wrapper" style={{height: "100%", left: "0", position: "absolute", top: "0", width: "100%"}}>
@@ -130,6 +145,8 @@ function App() {
           <div onClick={() => handleVidClick(6)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 6: Who Makes the Final Decision?</div>
           <div onClick={() => handleVidClick(7)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 7: How to Fight Fair in Business</div>
           <div onClick={() => handleVidClick(8)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 8: Who's Working Harder?</div>
+          <div onClick={() => handleVidClick(9)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 9: Patience and Forgiveness</div>
+          <div onClick={() => handleVidClick(10)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 10: Negotiating Massive Success</div>
         </div>
       </Element>
       </div>
