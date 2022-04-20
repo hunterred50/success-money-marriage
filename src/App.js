@@ -182,7 +182,7 @@ function App() {
           <div onClick={() => handleClick(12)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 12: The Time Value of Money</div>
           <div onClick={() => handleClick(12)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 13: Living an Unrestricted Existence</div>
           <div onClick={() => handleClick(12)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 14: The Rule of 72</div>
-          {/*<div onClick={() => handleClick(13)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 15: What to Teach Your Kids About Money</div> */}
+          <div onClick={() => handleClick(13)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 15: What to Teach Your Kids About Money</div>
           <h1 style={{fontFamily: "Oswald, sans-serif", fontWeight: "400"}}>Or watch to the show:</h1>
           <div id="video" style={{width: "90%", margin: "auto"}}>
             <div className="wistia_responsive_padding" style={{padding: "56.25% 0 0 0", position: "relative"}}><div className="wistia_responsive_wrapper" style={{height: "100%", left: "0", position: "absolute", top: "0", width: "100%"}}>
@@ -203,7 +203,7 @@ function App() {
           <div onClick={() => handleVidClick(12)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 12: The Time Value of Money</div>
           <div onClick={() => handleVidClick(13)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 13: Living an Unrestricted Existence</div>
           <div onClick={() => handleVidClick(14)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 14: The Rule of 72</div>
-          {/*<div onClick={() => handleVidClick(15)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 15: What to Teach Your Kids About Money</div> */}
+          <div onClick={() => handleVidClick(15)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 15: What to Teach Your Kids About Money</div>
         </div>
       </Element>
       </div>
