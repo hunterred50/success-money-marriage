@@ -66,8 +66,21 @@ function App() {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147703260.mp3");
     } else if (num === 14) {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147703263.mp3");
-    } // else if (num === 15) {
-    //   setTrackLink("https://app.kajabi.com/podcasts/medias/2147703266.mp3");
+    } 
+    else if (num === 15) {
+      setTrackLink("https://app.kajabi.com/podcasts/medias/2147703266.mp3");
+    }
+    // else if (num === 16) {
+    //   setTrackLink("https://app.kajabi.com/podcasts/medias/2147722917.mp3");
+    // }
+    // else if (num === 17) {
+    //   setTrackLink("https://app.kajabi.com/podcasts/medias/2147722918.mp3");
+    // }
+    // else if (num === 18) {
+    //   setTrackLink("https://app.kajabi.com/podcasts/medias/2147722920.mp3");
+    // }
+    // else if (num === 19) {
+    //   setTrackLink("https://app.kajabi.com/podcasts/medias/2147722921.mp3");
     // }
   };
 
@@ -108,8 +121,20 @@ function App() {
     else if (num === 14) {
       setVidLink("https://fast.wistia.net/embed/iframe/f8p75olfhk?videoFoam=true");
     }
-    // else if (num === 15) {
-    //   setVidLink("https://fast.wistia.net/embed/iframe/cvuak1db1m?videoFoam=true");
+    else if (num === 15) {
+      setVidLink("https://fast.wistia.net/embed/iframe/cvuak1db1m?videoFoam=true");
+    }
+    // else if (num === 16) {
+    //   setVidLink("https://fast.wistia.net/embed/iframe/imweltpxr2?videoFoam=true");
+    // }
+    // else if (num === 17) {
+    //   setVidLink("https://fast.wistia.net/embed/iframe/8h5hkz7z3l?videoFoam=true");
+    // }
+    // else if (num === 18) {
+    //   setVidLink("https://fast.wistia.net/embed/iframe/4p9fggzvme?videoFoam=true");
+    // }
+    // else if (num === 19) {
+    //   setVidLink("https://fast.wistia.net/embed/iframe/3f08g4l7o9?videoFoam=true");
     // }
   };
 
