@@ -146,7 +146,7 @@ function App() {
       <div class="heroImg">
         <div style={opaque}>
           <Element name="home" style={heroDiv}>
-            <h1 class="title" style={{margin: "-40px 0 10px 0"}}>SuccessMoneyAndMarriage</h1>
+            <h1 class="title" style={{margin: "-40px 0 10px 0"}}>SuccessMoneyMarriage</h1>
             <div style={{width: "100%", height: "100%", display: "flex", justifyContent: "center"}}>
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="home">Home</Link>
               <Link activeClass="active" spy={true} smooth={true} duration={500} style={items} to="episodes">Episodes</Link>
@@ -216,13 +216,13 @@ function App() {
       </Element>
       </div>
       <Element name="about" style={{backgroundColor: "rgba(35, 38, 50)", color: "white", paddingBottom: "10em"}}>
-          <h1 class="section">SuccessMoneyAndMarriage</h1>
+          <h1 class="section">SuccessMoneyMarriage</h1>
             <p style={{paddingBottom: "5em", width: "60%", marginLeft: "20%"}}>
               This weekly podcast explores key issues involving Success, Money, And Marriage in modern day America. 
               The shows objective is to explore multiple points of view on subjects that matter. After almost four 
               decades of marriage, business, and managing money, there are few obstacles this couple hasn’t encountered. 
               After a lifetime of mistakes, missteps and successes, the Siebold’s offer a unique perspective.
-              {/* This weekly podcast explores key issues involving successMoneyAndMarriage in
+              {/* This weekly podcast explores key issues involving successMoneyMarriage in
               modern day America. The shows objective is to explore multiple points of view on
               subjects that matter. After almost four decades of living together, being married,
               traveling the world, and building businesses,
@@ -338,7 +338,7 @@ function App() {
         {/* <Element name="media" style={{backgroundColor: "white", color: "rgba(35, 38, 50)", paddingBottom: "10em", display: "flex", justifyContent: "center", height: "100%", width: "80%", marginLeft: "12%", marginTop: "5em", marginBottom: "0em", flexDirection: "column", alignContent: "flex-start"}}>
           <h1 class="section">Success, Money, and Marriage Podcast</h1>
           <div style={{textAlign: "center", paddingTop: ".4em"}}>
-            This weekly podcast explores key issues involving successMoneyAndMarriage in modern day America. 
+            This weekly podcast explores key issues involving successMoneyMarriage in modern day America. 
             The shows objective is to explore multiple points of view on subjects that matter. After almost four 
             decades of marriage, business, and managing money, there are few obstacles this couple hasn’t encountered. 
             After a lifetime of mistakes, missteps and successes, the Siebold’s offer a unique perspective. <br/><br/>
@@ -346,7 +346,7 @@ function App() {
         </Element> */}
         <Element name="footer" style={{display: "flex", flexWrap: "wrap", justifyContent: "space-around", backgroundColor: "rgba(35, 38, 50)", color: "white", padding: "3em", textAlign: "left"}}>
           <div>
-          SuccessMoneyAndMarriage Podcast<br/>
+          SuccessMoneyMarriage Podcast<br/>
             Bona Allen Mansion<br/>
             395 East Main St.<br/>
             Buford, Georgia 30518<br/>
