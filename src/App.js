@@ -70,9 +70,9 @@ function App() {
     else if (num === 15) {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147703266.mp3");
     }
-    // else if (num === 16) {
-    //   setTrackLink("https://app.kajabi.com/podcasts/medias/2147722917.mp3");
-    // }
+    else if (num === 16) {
+      setTrackLink("https://app.kajabi.com/podcasts/medias/2147722917.mp3");
+    }
     // else if (num === 17) {
     //   setTrackLink("https://app.kajabi.com/podcasts/medias/2147722918.mp3");
     // }
@@ -124,9 +124,9 @@ function App() {
     else if (num === 15) {
       setVidLink("https://fast.wistia.net/embed/iframe/cvuak1db1m?videoFoam=true");
     }
-    // else if (num === 16) {
-    //   setVidLink("https://fast.wistia.net/embed/iframe/imweltpxr2?videoFoam=true");
-    // }
+    else if (num === 16) {
+      setVidLink("https://fast.wistia.net/embed/iframe/imweltpxr2?videoFoam=true");
+    }
     // else if (num === 17) {
     //   setVidLink("https://fast.wistia.net/embed/iframe/8h5hkz7z3l?videoFoam=true");
     // }
@@ -180,11 +180,11 @@ function App() {
           <div onClick={() => handleClick(10)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 10: Negotiating Massive Success</div>
           <div onClick={() => handleClick(11)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 11: How Money Works</div>
           <div onClick={() => handleClick(12)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 12: The Time Value of Money</div>
-          <div onClick={() => handleClick(12)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 13: Living an Unrestricted Existence</div>
-          <div onClick={() => handleClick(12)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 14: The Rule of 72</div>
-          <div onClick={() => handleClick(13)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 15: What to Teach Your Kids About Money</div>
+          <div onClick={() => handleClick(13)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 13: Living an Unrestricted Existence</div>
+          <div onClick={() => handleClick(14)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 14: The Rule of 72</div>
+          <div onClick={() => handleClick(15)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 15: What to Teach Your Kids About Money</div>
+          <div onClick={() => handleClick(16)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 16: Listening to Your Spouse/Partner</div>
           {/* <div onClick={() => handleClick(13)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 15: What to Teach Your Kids About Money</div>
-          <div onClick={() => handleClick(13)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 15: What to Teach Your Kids About Money</div>
           <div onClick={() => handleClick(13)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 15: What to Teach Your Kids About Money</div>
           <div onClick={() => handleClick(13)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 15: What to Teach Your Kids About Money</div> */}
           <h1 style={{fontFamily: "Oswald, sans-serif", fontWeight: "400"}}>Or watch to the show:</h1>
@@ -208,8 +208,8 @@ function App() {
           <div onClick={() => handleVidClick(13)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 13: Living an Unrestricted Existence</div>
           <div onClick={() => handleVidClick(14)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 14: The Rule of 72</div>
           <div onClick={() => handleVidClick(15)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 15: What to Teach Your Kids About Money</div>
+          <div onClick={() => handleVidClick(16)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 16: Listening to Your Spouse/Partner</div>
           {/* <div onClick={() => handleVidClick(15)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 15: What to Teach Your Kids About Money</div>
-          <div onClick={() => handleVidClick(15)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 15: What to Teach Your Kids About Money</div>
           <div onClick={() => handleVidClick(15)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 15: What to Teach Your Kids About Money</div>
           <div onClick={() => handleVidClick(15)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 15: What to Teach Your Kids About Money</div> */}
         </div>
