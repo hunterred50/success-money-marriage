@@ -33,8 +33,8 @@ var items = {
 }
 
 function App() {
-  const [trackLink, setTrackLink] = useState("https://app.kajabi.com/podcasts/medias/2147703266.mp3")
-  const [vidLink, setVidLink] = useState("https://fast.wistia.net/embed/iframe/cvuak1db1m?videoFoam=true")
+  const [trackLink, setTrackLink] = useState("https://app.kajabi.com/podcasts/medias/2147722918.mp3")
+  const [vidLink, setVidLink] = useState("https://fast.wistia.net/embed/iframe/8h5hkz7z3l?videoFoam=true")
 
   const handleClick = (num) => {
     if (num === 1) {
@@ -163,7 +163,7 @@ function App() {
       <div style={{scrollBehavior: "smooth"}}> {/* adjust height in next two lines */}
       <Element name="episodes" style={{backgroundColor: "rgba(35, 38, 50)", marginTop: "-6em", display: "flex", justifyContent: "center", height: "140em"}}>
         <div style={{backgroundColor: "#ffffff", paddingTop: "10px", width: "50em", height: "135em", color: "black", zIndex: "2"}}>
-        <h1 style={{fontFamily: "Oswald, sans-serif", fontWeight: "400"}}>Watch to the show:</h1>
+        <h1 style={{fontFamily: "Oswald, sans-serif", fontWeight: "400"}}>Watch the show:</h1>
           <div id="video" style={{width: "90%", margin: "auto"}}>
             <div className="wistia_responsive_padding" style={{padding: "56.25% 0 0 0", position: "relative"}}><div className="wistia_responsive_wrapper" style={{height: "100%", left: "0", position: "absolute", top: "0", width: "100%"}}>
             <iframe src={vidLink} title="20130109-tdy_klg_hrpt_ NY Video" allow="autoplay; fullscreen" allowtransparency="true" frameBorder="0" scrolling="no" className="wistia_embed" name="wistia_embed" allowFullScreen width="100%" height="100%"></iframe></div></div>
