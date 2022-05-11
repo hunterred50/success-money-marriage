@@ -33,8 +33,8 @@ var items = {
 }
 
 function App() {
-  const [trackLink, setTrackLink] = useState("https://app.kajabi.com/podcasts/medias/2147722918.mp3")
-  const [vidLink, setVidLink] = useState("https://fast.wistia.net/embed/iframe/8h5hkz7z3l?videoFoam=true")
+  const [trackLink, setTrackLink] = useState("https://app.kajabi.com/podcasts/medias/2147722920.mp3")
+  const [vidLink, setVidLink] = useState("https://fast.wistia.net/embed/iframe/4p9fggzvme?videoFoam=true")
 
   const handleClick = (num) => {
     if (num === 1) {
