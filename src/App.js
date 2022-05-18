@@ -161,8 +161,8 @@ function App() {
         </div>
       </div>
       <div style={{scrollBehavior: "smooth"}}> {/* adjust height in next two lines */}
-      <Element name="episodes" style={{backgroundColor: "rgba(35, 38, 50)", marginTop: "-6em", display: "flex", justifyContent: "center", height: "150em"}}>
-        <div style={{backgroundColor: "#ffffff", paddingTop: "10px", width: "50em", height: "145em", color: "black", zIndex: "2"}}>
+      <Element name="episodes" style={{backgroundColor: "rgba(35, 38, 50)", marginTop: "-6em", display: "flex", justifyContent: "center", height: "155em"}}>
+        <div style={{backgroundColor: "#ffffff", paddingTop: "10px", width: "50em", height: "150em", color: "black", zIndex: "2"}}>
         <h1 style={{fontFamily: "Oswald, sans-serif", fontWeight: "400"}}>Watch the show:</h1>
           <div id="video" style={{width: "90%", margin: "auto"}}>
             <div className="wistia_responsive_padding" style={{padding: "56.25% 0 0 0", position: "relative"}}><div className="wistia_responsive_wrapper" style={{height: "100%", left: "0", position: "absolute", top: "0", width: "100%"}}>
@@ -187,7 +187,9 @@ function App() {
           <div onClick={() => handleVidClick(16)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 16: Listening to Your Spouse/Partner</div>
           <div onClick={() => handleVidClick(17)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 17: Taking Time To Reconnect</div>
           <div onClick={() => handleVidClick(18)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 18: Building Each Other Up</div>
-          {/* <div onClick={() => handleVidClick(19)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 19: Exploring Shared Values</div> */}
+          <div onClick={() => handleVidClick(19)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 19: Exploring Shared Values</div>
+          {/* <div onClick={() => handleVidClick(19)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 19: Exploring Shared Values</div>
+          <div onClick={() => handleVidClick(19)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 19: Exploring Shared Values</div> */}
           <h1 style={{fontFamily: "Oswald, sans-serif", fontWeight: "400", marginBottom: "0"}}>or Listen to the show:</h1>
           <div style={{marginBottom: "15px"}}>
             <a href="https://open.spotify.com/show/0SY5X4l0jeSJ8Z4tKG9cJ9?si=940cfc79393b477b" target="_blank" rel="noopener noreferrer"><svg style={{width: "50px", padding: "10px 10px 0"}} role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Spotify</title><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg></a>
@@ -213,7 +215,9 @@ function App() {
           <div onClick={() => handleClick(16)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 16: Listening to Your Spouse/Partner</div>
           <div onClick={() => handleClick(17)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 17: Taking Time To Reconnect</div>
           <div onClick={() => handleClick(18)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 18: Building Each Other Up</div>
-          {/* <div onClick={() => handleClick(19)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 19: Exploring Shared Values</div> */}
+          <div onClick={() => handleClick(19)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 19: Exploring Shared Values</div>
+          {/* <div onClick={() => handleClick(19)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 19: Exploring Shared Values</div>
+          <div onClick={() => handleClick(19)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 19: Exploring Shared Values</div> */}
 
         </div>
       </Element>
