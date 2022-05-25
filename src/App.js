@@ -33,8 +33,8 @@ var items = {
 }
 
 function App() {
-  const [trackLink, setTrackLink] = useState("https://app.kajabi.com/podcasts/medias/2147722921.mp3")
-  const [vidLink, setVidLink] = useState("https://fast.wistia.net/embed/iframe/3f08g4l7o9?videoFoam=true")
+  const [trackLink, setTrackLink] = useState("https://app.kajabi.com/podcasts/medias/2147727777.mp3")
+  const [vidLink, setVidLink] = useState("https://fast.wistia.net/embed/iframe/iihk020g02?videoFoam=true")
 
   const handleClick = (num) => {
     if (num === 1) {
@@ -84,6 +84,24 @@ function App() {
     }
     else if (num === 20) {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147727777.mp3");
+    }
+    else if (num === 21) {
+      setTrackLink("https://app.kajabi.com/podcasts/medias/2147727778.mp3");
+    }
+    else if (num === 22) {
+      setTrackLink("https://app.kajabi.com/podcasts/medias/2147727781.mp3");
+    }
+    else if (num === 23) {
+      setTrackLink("https://app.kajabi.com/podcasts/medias/2147737491.mp3");
+    }
+    else if (num === 24) {
+      setTrackLink("https://app.kajabi.com/podcasts/medias/2147737492.mp3");
+    }
+    else if (num === 25) {
+      setTrackLink("https://app.kajabi.com/podcasts/medias/2147737493.mp3");
+    }
+    else if (num === 26) {
+      setTrackLink("https://app.kajabi.com/podcasts/medias/2147737494.mp3");
     }
   };
 
@@ -141,6 +159,24 @@ function App() {
     }
     else if (num === 20) {
       setVidLink("https://fast.wistia.net/embed/iframe/iihk020g02?videoFoam=true");
+    }
+    else if (num === 21) {
+      setVidLink("https://fast.wistia.net/embed/iframe/gsbkbibpne?videoFoam=true");
+    }
+    else if (num === 22) {
+      setVidLink("https://fast.wistia.net/embed/iframe/gsbkbibpne?videoFoam=true");
+    }
+    else if (num === 23) {
+      setVidLink("https://fast.wistia.net/embed/iframe/wzr4baroid?videoFoam=true");
+    }
+    else if (num === 24) {
+      setVidLink("https://fast.wistia.net/embed/iframe/s8mbm3ule1?videoFoam=true");
+    }
+    else if (num === 25) {
+      setVidLink("https://fast.wistia.net/embed/iframe/tf2kqui9n2?videoFoam=true");
+    }
+    else if (num === 26) {
+      setVidLink("https://fast.wistia.net/embed/iframe/agnrkwdtet?videoFoam=true");
     }
   };
 
