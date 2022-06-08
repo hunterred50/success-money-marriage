@@ -33,8 +33,8 @@ var items = {
 }
 
 function App() {
-  const [trackLink, setTrackLink] = useState("https://app.kajabi.com/podcasts/medias/2147727778.mp3")
-  const [vidLink, setVidLink] = useState("https://fast.wistia.net/embed/iframe/xfuhgumyu0?videoFoam=true")
+  const [trackLink, setTrackLink] = useState("https://app.kajabi.com/podcasts/medias/2147727781.mp3")
+  const [vidLink, setVidLink] = useState("https://fast.wistia.net/embed/iframe/gsbkbibpne?videoFoam=true")
 
   const handleClick = (num) => {
     if (num === 1) {
@@ -203,8 +203,8 @@ function App() {
         </div>
       </div>
       <div style={{scrollBehavior: "smooth"}}> {/* adjust height in next two lines */}
-      <Element name="episodes" style={{backgroundColor: "rgba(35, 38, 50)", marginTop: "-6em", display: "flex", justifyContent: "center", height: "170em"}}>
-        <div style={{backgroundColor: "#ffffff", paddingTop: "10px", width: "50em", height: "165em", color: "black", zIndex: "2"}}>
+      <Element name="episodes" style={{backgroundColor: "rgba(35, 38, 50)", marginTop: "-6em", display: "flex", justifyContent: "center", height: "175em"}}>
+        <div style={{backgroundColor: "#ffffff", paddingTop: "10px", width: "50em", height: "170em", color: "black", zIndex: "2"}}>
         <h1 style={{fontFamily: "Oswald, sans-serif", fontWeight: "400"}}>Watch the show:</h1>
           <div id="video" style={{width: "90%", margin: "auto"}}>
             <div className="wistia_responsive_padding" style={{padding: "56.25% 0 0 0", position: "relative"}}><div className="wistia_responsive_wrapper" style={{height: "100%", left: "0", position: "absolute", top: "0", width: "100%"}}>
@@ -232,8 +232,8 @@ function App() {
           <div onClick={() => handleVidClick(19)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 19: Exploring Shared Values</div>
           <div onClick={() => handleVidClick(20)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 20: Spending and Investing as a Couple</div>
           <div onClick={() => handleVidClick(21)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 21: 10 Things</div>
-          {/* <div onClick={() => handleVidClick(22)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 22: The More The Merrier</div>
-          <div onClick={() => handleVidClick(23)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 23: Recognition</div>
+          <div onClick={() => handleVidClick(22)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 22: The More The Merrier</div>
+          {/* <div onClick={() => handleVidClick(23)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 23: Recognition</div>
           <div onClick={() => handleVidClick(24)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 24: Communication</div>
           <div onClick={() => handleVidClick(25)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 25: Building Credibility</div>
           <div onClick={() => handleVidClick(26)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 26: Assessing Your Strengths and Weaknesses</div> */}
@@ -265,8 +265,8 @@ function App() {
           <div onClick={() => handleClick(19)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 19: Exploring Shared Values</div>
           <div onClick={() => handleClick(20)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 20: Spending and Investing as a Couple</div>
           <div onClick={() => handleClick(21)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 21: 10 Things</div>
-          {/* <div onClick={() => handleClick(22)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 22: The More The Merrier</div>
-          <div onClick={() => handleClick(23)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 23: Recognition</div>
+          <div onClick={() => handleClick(22)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 22: The More The Merrier</div>
+          {/* <div onClick={() => handleClick(23)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 23: Recognition</div>
           <div onClick={() => handleClick(24)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 24: Communication</div>
           <div onClick={() => handleClick(25)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 25: Building Credibility</div>
           <div onClick={() => handleClick(26)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 26: Assessing Your Strengths and Weaknesses</div> */}
