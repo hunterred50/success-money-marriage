@@ -241,7 +241,7 @@ function App() {
           <div onClick={() => handleVidClick(22)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 22: The More The Merrier</div>
           <div onClick={() => handleVidClick(23)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 23: Recognition</div>
           <div onClick={() => handleVidClick(24)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 24: Johnny Depp v. Amber Heard</div>
-          <div onClick={() => handleVidClick(25)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 25: Building Credibility</div>
+          <div onClick={() => handleVidClick(25)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 25: Roe v. Wade</div>
           {/* <div onClick={() => handleVidClick(26)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 26: Assessing Your Strengths and Weaknesses</div> */}
           <h1 style={{fontFamily: "Oswald, sans-serif", fontWeight: "400", marginBottom: "0"}}>or Listen to the show:</h1>
           <div style={{marginBottom: "15px"}}>
@@ -274,7 +274,7 @@ function App() {
           <div onClick={() => handleClick(22)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 22: The More The Merrier</div>
           <div onClick={() => handleClick(23)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 23: Recognition</div>
           <div onClick={() => handleClick(24)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 24: Johnny Depp v. Amber Heard</div>
-          <div onClick={() => handleClick(25)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 25: Building Credibility</div>
+          <div onClick={() => handleClick(25)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 25: Roe v. Wade</div>
           {/* <div onClick={() => handleClick(26)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 26: Assessing Your Strengths and Weaknesses</div> */}
 
         </div>
