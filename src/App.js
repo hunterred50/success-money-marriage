@@ -33,8 +33,8 @@ var items = {
 }
 
 function App() {
-  const [trackLink, setTrackLink] = useState("https://app.kajabi.com/podcasts/medias/2147737492.mp3")
-  const [vidLink, setVidLink] = useState("https://fast.wistia.net/embed/iframe/ixf46yccd5?videoFoam=true")
+  const [trackLink, setTrackLink] = useState("https://app.kajabi.com/podcasts/medias/2147737493.mp3")
+  const [vidLink, setVidLink] = useState("https://fast.wistia.net/embed/iframe/n0o2u2vqiq?videoFoam=true")
 
   const handleClick = (num) => {
     if (num === 1) {
@@ -176,7 +176,7 @@ function App() {
       setVidLink("https://fast.wistia.net/embed/iframe/ixf46yccd5?videoFoam=true");
     }
     else if (num === 25) {
-      setVidLink("https://fast.wistia.net/embed/iframe/tf2kqui9n2?videoFoam=true");
+      setVidLink("https://fast.wistia.net/embed/iframe/n0o2u2vqiq?videoFoam=true");
     }
     else if (num === 26) {
       setVidLink("https://fast.wistia.net/embed/iframe/agnrkwdtet?videoFoam=true");
@@ -241,8 +241,8 @@ function App() {
           <div onClick={() => handleVidClick(22)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 22: The More The Merrier</div>
           <div onClick={() => handleVidClick(23)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 23: Recognition</div>
           <div onClick={() => handleVidClick(24)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 24: Johnny Depp v. Amber Heard</div>
-          {/* <div onClick={() => handleVidClick(25)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 25: Building Credibility</div>
-          <div onClick={() => handleVidClick(26)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 26: Assessing Your Strengths and Weaknesses</div> */}
+          <div onClick={() => handleVidClick(25)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 25: Building Credibility</div>
+          {/* <div onClick={() => handleVidClick(26)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 26: Assessing Your Strengths and Weaknesses</div> */}
           <h1 style={{fontFamily: "Oswald, sans-serif", fontWeight: "400", marginBottom: "0"}}>or Listen to the show:</h1>
           <div style={{marginBottom: "15px"}}>
             <a href="https://open.spotify.com/show/0SY5X4l0jeSJ8Z4tKG9cJ9?si=940cfc79393b477b" target="_blank" rel="noopener noreferrer"><svg style={{width: "50px", padding: "10px 10px 0"}} role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Spotify</title><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg></a>
@@ -274,8 +274,8 @@ function App() {
           <div onClick={() => handleClick(22)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 22: The More The Merrier</div>
           <div onClick={() => handleClick(23)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 23: Recognition</div>
           <div onClick={() => handleClick(24)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 24: Johnny Depp v. Amber Heard</div>
-          {/* <div onClick={() => handleClick(25)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 25: Building Credibility</div>
-          <div onClick={() => handleClick(26)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 26: Assessing Your Strengths and Weaknesses</div> */}
+          <div onClick={() => handleClick(25)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 25: Building Credibility</div>
+          {/* <div onClick={() => handleClick(26)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 26: Assessing Your Strengths and Weaknesses</div> */}
 
         </div>
       </Element>
