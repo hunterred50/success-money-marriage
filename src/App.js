@@ -33,7 +33,7 @@ var items = {
 }
 
 function App() {
-  const [trackLink, setTrackLink] = useState("https://app.kajabi.com/podcasts/medias/2147752316.mp3")
+  const [trackLink, setTrackLink] = useState("https://app.kajabi.com/podcasts/medias/2147755844.mp3")
   const [vidLink, setVidLink] = useState("https://fast.wistia.net/embed/iframe/s8mbm3ule1?videoFoam=true")
 
   const handleClick = (num) => {
@@ -66,48 +66,34 @@ function App() {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147703260.mp3");
     } else if (num === 14) {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147703263.mp3");
-    } 
-    else if (num === 15) {
+    } else if (num === 15) {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147703266.mp3");
-    }
-    else if (num === 16) {
+    } else if (num === 16) {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147722917.mp3");
-    }
-    else if (num === 17) {
+    } else if (num === 17) {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147722918.mp3");
-    }
-    else if (num === 18) {
+    } else if (num === 18) {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147722920.mp3");
-    }
-    else if (num === 19) {
+    } else if (num === 19) {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147722921.mp3");
-    }
-    else if (num === 20) {
+    } else if (num === 20) {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147727777.mp3");
-    }
-    else if (num === 21) {
+    } else if (num === 21) {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147727778.mp3");
-    }
-    else if (num === 22) {
+    } else if (num === 22) {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147727781.mp3");
-    }
-    else if (num === 23) {
+    } else if (num === 23) {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147737491.mp3");
-    }
-    else if (num === 24) {
+    } else if (num === 24) {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147737492.mp3");
-    }
-    else if (num === 25) {
+    } else if (num === 25) {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147737493.mp3");
-    }
-    else if (num === 26) {
+    } else if (num === 26) {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147737494.mp3");
-    }
-    else if (num === 27) {
+    } else if (num === 27) {
       setTrackLink("https://app.kajabi.com/podcasts/medias/2147752316.mp3");
-    }
-    else if (num === 28) {
-      setTrackLink("https://app.kajabi.com/podcasts/medias/.mp3");
+    } else if (num === 28) {
+      setTrackLink("https://app.kajabi.com/podcasts/medias/2147755844.mp3");
     }
   };
 
@@ -250,7 +236,7 @@ function App() {
           <div onClick={() => handleVidClick(25)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 25: Roe v. Wade</div>
           <div onClick={() => handleVidClick(26)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 26: Assessing Your Strengths and Weaknesses</div>
           <div onClick={() => handleVidClick(27)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 27: Communication</div>
-          {/* <div onClick={() => handleVidClick(28)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 28: </div> */}
+          <div onClick={() => handleVidClick(28)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 28: Building Credibility</div>
           <h1 style={{fontFamily: "Oswald, sans-serif", fontWeight: "400", marginBottom: "0"}}>or Listen to the show:</h1>
           <div style={{marginBottom: "15px"}}>
             <a href="https://open.spotify.com/show/0SY5X4l0jeSJ8Z4tKG9cJ9?si=940cfc79393b477b" target="_blank" rel="noopener noreferrer"><svg style={{width: "50px", padding: "10px 10px 0"}} role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Spotify</title><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg></a>
@@ -285,7 +271,7 @@ function App() {
           <div onClick={() => handleClick(25)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 25: Roe v. Wade</div>
           <div onClick={() => handleClick(26)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 26: Assessing Your Strengths and Weaknesses</div>
           <div onClick={() => handleClick(27)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 27: Communication</div>
-          {/* <div onClick={() => handleClick(28)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 26: </div> */}
+          <div onClick={() => handleClick(28)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 26: Building Credibility</div>
         </div>
       </Element>
       </div>
