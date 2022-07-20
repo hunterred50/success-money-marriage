@@ -108,73 +108,52 @@ function App() {
       setVidLink("https://fast.wistia.net/embed/iframe/idu1w3iwv4?videoFoam=true");
     } else if (num === 5) {
       setVidLink("https://fast.wistia.net/embed/iframe/aadyfj3nm1?videoFoam=true");
-    } 
-    else if (num === 6) {
+    } else if (num === 6) {
       setVidLink("https://fast.wistia.net/embed/iframe/nssvkmxje1?videoFoam=true");
     } else if (num === 7) {
       setVidLink("https://fast.wistia.net/embed/iframe/lz4q1rlgu7?videoFoam=true");
     } else if (num === 8) {
       setVidLink("https://fast.wistia.net/embed/iframe/2ca4wp9iti?videoFoam=true");
-    }
-    else if (num === 9) {
+    } else if (num === 9) {
       setVidLink("https://fast.wistia.net/embed/iframe/1em62b0jdo?videoFoam=true");
-    }
-    else if (num === 10) {
+    } else if (num === 10) {
       setVidLink("https://fast.wistia.net/embed/iframe/wqurvfavep?videoFoam=true");
-    }
-    else if (num === 11) {
+    } else if (num === 11) {
       setVidLink("https://fast.wistia.net/embed/iframe/xm6l7m1n5k?videoFoam=true");
-    }
-    else if (num === 12) {
+    } else if (num === 12) {
       setVidLink("https://fast.wistia.net/embed/iframe/0vf5icfq7a?videoFoam=true");
-    }
-    else if (num === 13) {
+    } else if (num === 13) {
       setVidLink("https://fast.wistia.net/embed/iframe/91n27uzu6l?videoFoam=true");
-    }
-    else if (num === 14) {
+    } else if (num === 14) {
       setVidLink("https://fast.wistia.net/embed/iframe/f8p75olfhk?videoFoam=true");
-    }
-    else if (num === 15) {
+    } else if (num === 15) {
       setVidLink("https://fast.wistia.net/embed/iframe/cvuak1db1m?videoFoam=true");
-    }
-    else if (num === 16) {
+    } else if (num === 16) {
       setVidLink("https://fast.wistia.net/embed/iframe/imweltpxr2?videoFoam=true");
-    }
-    else if (num === 17) {
+    } else if (num === 17) {
       setVidLink("https://fast.wistia.net/embed/iframe/8h5hkz7z3l?videoFoam=true");
-    }
-    else if (num === 18) {
+    } else if (num === 18) {
       setVidLink("https://fast.wistia.net/embed/iframe/4p9fggzvme?videoFoam=true");
-    }
-    else if (num === 19) {
+    } else if (num === 19) {
       setVidLink("https://fast.wistia.net/embed/iframe/3f08g4l7o9?videoFoam=true");
-    }
-    else if (num === 20) {
+    } else if (num === 20) {
       setVidLink("https://fast.wistia.net/embed/iframe/iihk020g02?videoFoam=true");
-    }
-    else if (num === 21) {
+    } else if (num === 21) {
       setVidLink("https://fast.wistia.net/embed/iframe/xfuhgumyu0?videoFoam=true");
-    }
-    else if (num === 22) {
+    } else if (num === 22) {
       setVidLink("https://fast.wistia.net/embed/iframe/gsbkbibpne?videoFoam=true");
-    }
-    else if (num === 23) {
+    } else if (num === 23) {
       setVidLink("https://fast.wistia.net/embed/iframe/wzr4baroid?videoFoam=true");
-    }
-    else if (num === 24) {
+    } else if (num === 24) {
       setVidLink("https://fast.wistia.net/embed/iframe/ixf46yccd5?videoFoam=true");
-    }
-    else if (num === 25) {
+    } else if (num === 25) {
       setVidLink("https://fast.wistia.net/embed/iframe/n0o2u2vqiq?videoFoam=true");
-    }
-    else if (num === 26) {
+    } else if (num === 26) {
       setVidLink("https://fast.wistia.net/embed/iframe/agnrkwdtet?videoFoam=true");
-    }
-    else if (num === 27) {
+    } else if (num === 27) {
       setVidLink("https://fast.wistia.net/embed/iframe/s8mbm3ule1?videoFoam=true");
-    }
-    else if (num === 28) {
-      setVidLink("https://fast.wistia.net/embed/iframe/?videoFoam=true");
+    } else if (num === 28) {
+      setVidLink("https://fast.wistia.net/embed/iframe/tf2kqui9n2?videoFoam=true");
     }
   };
 
@@ -271,7 +250,7 @@ function App() {
           <div onClick={() => handleClick(25)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 25: Roe v. Wade</div>
           <div onClick={() => handleClick(26)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 26: Assessing Your Strengths and Weaknesses</div>
           <div onClick={() => handleClick(27)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 27: Communication</div>
-          <div onClick={() => handleClick(28)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 26: Building Credibility</div>
+          <div onClick={() => handleClick(28)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 28: Building Credibility</div>
         </div>
       </Element>
       </div>
