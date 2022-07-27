@@ -184,8 +184,8 @@ function App() {
         </div>
       </div>
       <div style={{scrollBehavior: "smooth"}}> {/* adjust height in next two lines */}
-      <Element name="episodes" style={{backgroundColor: "rgba(35, 38, 50)", marginTop: "-6em", display: "flex", justifyContent: "center", height: "195em"}}>
-        <div style={{backgroundColor: "#ffffff", paddingTop: "10px", width: "50em", height: "190em", color: "black", zIndex: "2"}}>
+      <Element name="episodes" style={{backgroundColor: "rgba(35, 38, 50)", marginTop: "-6em", display: "flex", justifyContent: "center", height: "200em"}}>
+        <div style={{backgroundColor: "#ffffff", paddingTop: "10px", width: "50em", height: "195em", color: "black", zIndex: "2"}}>
         <h1 style={{fontFamily: "Oswald, sans-serif", fontWeight: "400"}}>Watch the show:</h1>
           <div id="video" style={{width: "90%", margin: "auto"}}>
             <div className="wistia_responsive_padding" style={{padding: "56.25% 0 0 0", position: "relative"}}><div className="wistia_responsive_wrapper" style={{height: "100%", left: "0", position: "absolute", top: "0", width: "100%"}}>
