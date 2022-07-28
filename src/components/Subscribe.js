@@ -24,7 +24,7 @@ const Subscribe = () => {
     scroll.scrollTo(8000);
   })
 
-  const [modalIsOpen,setIsOpen] = React.useState(false);
+  const [modalIsOpen,setIsOpen] = React.useState(true);
   function openModal() {
     setIsOpen(true);
   }
