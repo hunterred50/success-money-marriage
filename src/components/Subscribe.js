@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Modal from 'react-modal'
+import * as Scroll from 'react-scroll';
 import {Link} from 'react-scroll';
 
 const customStyles = {
@@ -18,6 +19,11 @@ const customStyles = {
 };
 
 const Subscribe = () => {
+  var scroll    = Scroll.animateScroll;
+  useEffect(() => {
+    scroll.scrollTo(3000);
+  })
+
   const [modalIsOpen,setIsOpen] = React.useState(false);
   function openModal() {
     setIsOpen(true);
@@ -30,6 +36,7 @@ const Subscribe = () => {
 
   function closeModal(){
     setIsOpen(false);
+    scroll.scrollToTop();
   }
   return (
     <div>
@@ -46,7 +53,7 @@ const Subscribe = () => {
       >
 
         <form accept-charset="UTF-8" action="https://bl132.infusionsoft.com/app/form/process/f2f51951e9dd1544badcfd15533558f0" class="infusion-form" id="inf_form_f2f51951e9dd1544badcfd15533558f0" method="POST">
-          <div style={{fontFamily: "Oswald, sans-serif", fontWeight: "400", marginBottom: ".6em"}}>Fill out to be notified of new episodes!</div>
+          <div style={{fontFamily: "Oswald, sans-serif", fontWeight: "400", marginBottom: ".6em"}}>Fill out to be notified of new episodes!<br/><br/><i>+ Receive the "Should You Be In Business with Your Spouse?" Questionaire as a signup bonus!</i></div>
           <input name="inf_form_xid" type="hidden" value="f2f51951e9dd1544badcfd15533558f0" />
           <input name="inf_form_name" type="hidden" value="Web Form submitted" />
           <input name="infusionsoft_version" type="hidden" value="1.70.0.348692" />
