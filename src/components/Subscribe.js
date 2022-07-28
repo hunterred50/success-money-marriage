@@ -21,7 +21,7 @@ const customStyles = {
 const Subscribe = () => {
   var scroll    = Scroll.animateScroll;
   useEffect(() => {
-    scroll.scrollTo(3000);
+    scroll.scrollTo(8000);
   })
 
   const [modalIsOpen,setIsOpen] = React.useState(false);
