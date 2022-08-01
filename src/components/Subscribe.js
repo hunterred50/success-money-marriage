@@ -52,6 +52,7 @@ const Subscribe = () => {
         contentLabel="Subscribe Modal"
       >
 
+        <img alt="header" style={{width:"100%"}} src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2150431699/settings_images/xueq2IppQBeu2QZawoaJ_should_you_be.jpg" />
         <form accept-charset="UTF-8" action="https://bl132.infusionsoft.com/app/form/process/f2f51951e9dd1544badcfd15533558f0" class="infusion-form" id="inf_form_f2f51951e9dd1544badcfd15533558f0" method="POST">
           <div style={{fontFamily: "Oswald, sans-serif", fontWeight: "400", marginBottom: ".6em"}}>Fill out to be notified of new episodes!<br/><br/><i>+ Receive the "Should You Be In Business with Your Spouse?" Questionaire as a signup bonus!</i></div>
           <input name="inf_form_xid" type="hidden" value="f2f51951e9dd1544badcfd15533558f0" />
@@ -75,6 +76,9 @@ const Subscribe = () => {
           <div class="infusion-submit">
               <button class="infusion-recaptcha" id="recaptcha_f2f51951e9dd1544badcfd15533558f0" type="submit" style={{margin: "0", textDecoration: "none", backgroundColor: "black", color: "white", cursor: "pointer", padding: "5px 35px", borderRadius: "20px", border: "0", fontFamily: "Oswald, sans-serif", fontWeight: "400"}}>
                 Submit
+              </button>
+              <button onClick={closeModal} style={{margin: "0 0 0 10px", textDecoration: "none", backgroundColor: "black", color: "white", cursor: "pointer", padding: "5px 35px", borderRadius: "20px", border: "0", fontFamily: "Oswald, sans-serif", fontWeight: "400"}}>
+                Close x
               </button>
           </div>
         </form>
