@@ -278,7 +278,7 @@ function App() {
           <div onClick={() => handleVidClick(37)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 37: Is Marriage Becoming Irrelevant?</div>
           <div onClick={() => handleVidClick(38)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 38: Being Childless by Choice</div>
           <div onClick={() => handleVidClick(39)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 39: Spicing Up Your Marriage</div>
-          {/* <div onClick={() => handleVidClick(40)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 40: Pros and Cons of Marriage Counseling</div> */}
+          <div onClick={() => handleVidClick(40)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 40: Pros and Cons of Marriage Counseling</div>
           {/* <div onClick={() => handleVidClick(41)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 41: The Final Episode</div> */}
           <h1 style={{fontFamily: "Oswald, sans-serif", fontWeight: "400", marginBottom: "0"}}>or Listen to the show:</h1>
           <div style={{marginBottom: "15px"}}>
@@ -326,7 +326,7 @@ function App() {
           <div onClick={() => handleClick(37)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 37: Is Marriage Becoming Irrelevant?</div>
           <div onClick={() => handleClick(38)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 38: Being Childless by Choice</div>
           <div onClick={() => handleClick(39)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 39: Spicing Up Your Marriage</div>
-          {/* <div onClick={() => handleClick(40)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 40: Pros and Cons of Marriage Counseling</div> */}
+          <div onClick={() => handleClick(40)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 40: Pros and Cons of Marriage Counseling</div>
           {/* <div onClick={() => handleClick(41)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 41: The Final Episode</div> */}
           </div>
       </Element>
