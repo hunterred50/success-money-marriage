@@ -34,7 +34,7 @@ var items = {
 
 function App() {
   const [trackLink, setTrackLink] = useState("https://app.kajabi.com/podcasts/medias/2147813319.mp3")
-  const [vidLink, setVidLink] = useState("https://www.youtube.com/embed/U9DJYVuoTFo")
+  const [vidLink, setVidLink] = useState("https://fast.wistia.net/embed/iframe/vidtqeq7g5?videoFoam=true")
 
   const handleClick = (num) => {
     if (num === 1) {
@@ -124,87 +124,87 @@ function App() {
 
   const handleVidClick = (num) => {
     if (num === 1) {
-      setVidLink("https://www.youtube.com/embed/U9DJYVuoTFo");
+      setVidLink("https://fast.wistia.net/embed/iframe/wg2kqa2vgf?videoFoam=true");
     } else if (num === 2) {
-      setVidLink("https://www.youtube.com/embed/3qbkTatUygM");
+      setVidLink("https://fast.wistia.net/embed/iframe/003gwiiqq0?videoFoam=true");
     } else if (num === 3) {
-      setVidLink("https://www.youtube.com/embed/G0y_Y3QcT0M");
+      setVidLink("https://fast.wistia.net/embed/iframe/rj1yw554ap?videoFoam=true");
     } else if (num === 4) {
-      setVidLink("https://www.youtube.com/embed/R9nyZHqgLU8");
+      setVidLink("https://fast.wistia.net/embed/iframe/idu1w3iwv4?videoFoam=true");
     } else if (num === 5) {
-      setVidLink("https://www.youtube.com/embed/nxbelirUa08");
+      setVidLink("https://fast.wistia.net/embed/iframe/aadyfj3nm1?videoFoam=true");
     } else if (num === 6) {
-      setVidLink("https://www.youtube.com/embed/psWE1R3tws4");
+      setVidLink("https://fast.wistia.net/embed/iframe/nssvkmxje1?videoFoam=true");
     } else if (num === 7) {
-      setVidLink("https://www.youtube.com/embed/ULkPU2H1mvg");
+      setVidLink("https://fast.wistia.net/embed/iframe/lz4q1rlgu7?videoFoam=true");
     } else if (num === 8) {
-      setVidLink("https://www.youtube.com/embed/WhMtXtA6N7s");
+      setVidLink("https://fast.wistia.net/embed/iframe/2ca4wp9iti?videoFoam=true");
     } else if (num === 9) {
-      setVidLink("https://www.youtube.com/embed/hNVJC25ya-o");
+      setVidLink("https://fast.wistia.net/embed/iframe/1em62b0jdo?videoFoam=true");
     } else if (num === 10) {
-      setVidLink("https://www.youtube.com/embed/2fYmkbu0KXI");
+      setVidLink("https://fast.wistia.net/embed/iframe/wqurvfavep?videoFoam=true");
     } else if (num === 11) {
-      setVidLink("https://www.youtube.com/embed/BHUsSpPpkPM");
+      setVidLink("https://fast.wistia.net/embed/iframe/xm6l7m1n5k?videoFoam=true");
     } else if (num === 12) {
-      setVidLink("https://www.youtube.com/embed/OglansYNClg");
+      setVidLink("https://fast.wistia.net/embed/iframe/0vf5icfq7a?videoFoam=true");
     } else if (num === 13) {
-      setVidLink("https://www.youtube.com/embed/6p4288wvi5Q");
+      setVidLink("https://fast.wistia.net/embed/iframe/91n27uzu6l?videoFoam=true");
     } else if (num === 14) {
-      setVidLink("https://www.youtube.com/embed/lf94Z1-tJLA");
+      setVidLink("https://fast.wistia.net/embed/iframe/f8p75olfhk?videoFoam=true");
     } else if (num === 15) {
-      setVidLink("https://www.youtube.com/embed/jKA99Yo8P9g");
+      setVidLink("https://fast.wistia.net/embed/iframe/cvuak1db1m?videoFoam=true");
     } else if (num === 16) {
-      setVidLink("https://www.youtube.com/embed/wP_CfPNaXbI");
+      setVidLink("https://fast.wistia.net/embed/iframe/imweltpxr2?videoFoam=true");
     } else if (num === 17) {
-      setVidLink("https://www.youtube.com/embed/umh55kvGVXE");
+      setVidLink("https://fast.wistia.net/embed/iframe/8h5hkz7z3l?videoFoam=true");
     } else if (num === 18) {
-      setVidLink("https://www.youtube.com/embed/BKqC85wBatQ");
+      setVidLink("https://fast.wistia.net/embed/iframe/4p9fggzvme?videoFoam=true");
     } else if (num === 19) {
-      setVidLink("https://www.youtube.com/embed/9rpwkUUDgo8");
+      setVidLink("https://fast.wistia.net/embed/iframe/3f08g4l7o9?videoFoam=true");
     } else if (num === 20) {
-      setVidLink("https://www.youtube.com/embed/pNEF_yjSELA");
+      setVidLink("https://fast.wistia.net/embed/iframe/iihk020g02?videoFoam=true");
     } else if (num === 21) {
-      setVidLink("https://www.youtube.com/embed/Mou2aqw5dWA");
+      setVidLink("https://fast.wistia.net/embed/iframe/xfuhgumyu0?videoFoam=true");
     } else if (num === 22) {
-      setVidLink("https://www.youtube.com/embed/JpZinPwz_fI");
+      setVidLink("https://fast.wistia.net/embed/iframe/gsbkbibpne?videoFoam=true");
     } else if (num === 23) {
-      setVidLink("https://www.youtube.com/embed/GIcJVjen3fQ");
+      setVidLink("https://fast.wistia.net/embed/iframe/wzr4baroid?videoFoam=true");
     } else if (num === 24) {
-      setVidLink("https://www.youtube.com/embed/fm3T44Eu0m8");
+      setVidLink("https://fast.wistia.net/embed/iframe/ixf46yccd5?videoFoam=true");
     } else if (num === 25) {
-      setVidLink("https://www.youtube.com/embed/Q69ZN-W2ygM");
+      setVidLink("https://fast.wistia.net/embed/iframe/n0o2u2vqiq?videoFoam=true");
     } else if (num === 26) {
-      setVidLink("https://www.youtube.com/embed/gnc_eYEEeZ0");
+      setVidLink("https://fast.wistia.net/embed/iframe/agnrkwdtet?videoFoam=true");
     } else if (num === 27) {
-      setVidLink("https://www.youtube.com/embed/izrd8OCecKk");
+      setVidLink("https://fast.wistia.net/embed/iframe/s8mbm3ule1?videoFoam=true");
     } else if (num === 28) {
-      setVidLink("https://www.youtube.com/embed/8pQr7qBIV74");
+      setVidLink("https://fast.wistia.net/embed/iframe/tf2kqui9n2?videoFoam=true");
     } else if (num === 29) {
-      setVidLink("https://www.youtube.com/embed/pgHYfVUrrVk");
+      setVidLink("https://fast.wistia.net/embed/iframe/dd8jwtpt54?videoFoam=true");
     } else if (num === 30) {
-      setVidLink("https://www.youtube.com/embed/39dRcNeA5ZM");
+      setVidLink("https://fast.wistia.net/embed/iframe/amo0xqq5vi?videoFoam=true");
     } else if (num === 31) {
-      setVidLink("https://www.youtube.com/embed/A0XZpgLxkYw");
+      setVidLink("https://fast.wistia.net/embed/iframe/weuu72e78d?videoFoam=true");
     } else if (num === 32) {
-      setVidLink("https://www.youtube.com/embed/GZDfLGuDwaE");
+      setVidLink("https://fast.wistia.net/embed/iframe/prlefxxvtm?videoFoam=true");
     } else if (num === 33) {
-      setVidLink("https://www.youtube.com/embed/BfPaH0NnGPc");
+      setVidLink("https://fast.wistia.net/embed/iframe/up9td4xb7f?videoFoam=true");
     } else if (num === 34) {
-      setVidLink("https://www.youtube.com/embed/AsDV50M21ws");
+      setVidLink("https://fast.wistia.net/embed/iframe/bj3k5rnru6?videoFoam=true");
     } else if (num === 35) {
-      setVidLink("https://www.youtube.com/embed/1mt_yyjH4W8");
+      setVidLink("https://fast.wistia.net/embed/iframe/kn710mx7v2?videoFoam=true");
     } else if (num === 36) {
-      setVidLink("https://www.youtube.com/embed/LwIKVoj687Q");
+      setVidLink("https://fast.wistia.net/embed/iframe/yywbgbpe4g?videoFoam=true");
     } else if (num === 37) {
-      setVidLink("https://www.youtube.com/embed/xieTTU22dLw");
+      setVidLink("https://fast.wistia.net/embed/iframe/c03k1xntz3?videoFoam=true");
     } else if (num === 38) {
-      setVidLink("https://www.youtube.com/embed/R2VzDTQATcs");
+      setVidLink("https://fast.wistia.net/embed/iframe/1h1z3td5vg?videoFoam=true");
     } else if (num === 39) {
-      setVidLink("https://www.youtube.com/embed/ZxgbvvEMUU8");
+      setVidLink("https://fast.wistia.net/embed/iframe/gcleqca7v5?videoFoam=true");
     } else if (num === 40) {
-      setVidLink("https://www.youtube.com/embed/rMbvJXYhMZ0");
+      setVidLink("https://fast.wistia.net/embed/iframe/atpbtpzgqx?videoFoam=true");
     } else if (num === 41) {
-      setVidLink("https://www.youtube.com/embed/RiUaA4gi8sg");
+      setVidLink("https://fast.wistia.net/embed/iframe/vidtqeq7g5?videoFoam=true");
     }
   };
 
@@ -235,10 +235,9 @@ function App() {
         <div style={{backgroundColor: "#ffffff", paddingTop: "10px", width: "50em", height: "260em", color: "black", zIndex: "2"}}>
         <h1 style={{fontFamily: "Oswald, sans-serif", fontWeight: "400"}}>Watch the show:</h1>
           <div id="video" style={{width: "90%", margin: "auto"}}>
-            {/* <div className="wistia_responsive_padding" style={{padding: "56.25% 0 0 0", position: "relative"}}><div className="wistia_responsive_wrapper" style={{height: "100%", left: "0", position: "absolute", top: "0", width: "100%"}}>
+            <div className="wistia_responsive_padding" style={{padding: "56.25% 0 0 0", position: "relative"}}><div className="wistia_responsive_wrapper" style={{height: "100%", left: "0", position: "absolute", top: "0", width: "100%"}}>
             <iframe src={vidLink} title="20130109-tdy_klg_hrpt_ NY Video" allow="autoplay; fullscreen" allowtransparency="true" frameBorder="0" scrolling="no" className="wistia_embed" name="wistia_embed" allowFullScreen width="100%" height="100%"></iframe></div></div>
-            <script src="https://fast.wistia.net/assets/external/E-v1.js" async></script><br/> */}
-            <iframe width="700" height="394" src={vidLink} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <script src="https://fast.wistia.net/assets/external/E-v1.js" async></script><br/>
           </div>
           <div onClick={() => handleVidClick(1)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 1: Introduction</div>
           <div onClick={() => handleVidClick(2)} style={{borderTop: "1px solid #E5E5E5", borderBottom: "1px solid #E5E5E5", padding: "10px", color: "#868686", cursor: "pointer"}}>Episode 2: Building a Relationship While Building a Business</div>
